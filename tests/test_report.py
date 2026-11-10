@@ -21,7 +21,7 @@ CHUNKS = [
 def test_resolve_article_khoan_and_sections():
     rows = [
         {"id": "q1", "citations": [{"doc": "QUY CHẾ", "loc": "Điều 25 khoản 2 điểm b"}]},
-        {"id": "q2", "citations": [{"doc_id": "qc", "dieu": 25, "khoan": "1"}]},
+        {"id": "q2", "citations": [{"doc_id": "qc", "loc": "Điều 25 khoản 1"}]},
         {"id": "q3", "citations": [{"doc": "PHÒNG BAN", "loc": "mục 5.2"}]},
         {"id": "q4", "citations": []},                       # "not in the documents" question
         {"id": "q5", "citations": [{"doc": "KHÔNG CÓ", "loc": "Điều 1"}]},
@@ -56,6 +56,6 @@ def test_quote_picks_the_exact_chunk_and_a_wrong_quote_is_reported():
 
 
 def test_one_group_per_citation():
-    rows = [{"id": "m", "citations": [{"doc_id": "qc", "dieu": 25, "khoan": "1"}, {"doc_id": "pb", "loc": "mục 4"}]}]
+    rows = [{"id": "m", "citations": [{"doc_id": "qc", "loc": "Điều 25 khoản 1"}, {"doc_id": "pb", "loc": "mục 4"}]}]
     (m,) = golden_coverage(rows, CHUNKS, MANIFEST)["mapping"]
     assert m["groups"] == [["qc#001"], ["pb#003"]]

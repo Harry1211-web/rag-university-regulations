@@ -65,8 +65,7 @@ def _squash(s: str) -> str:
 def doc_id_from(citation: dict, manifest: list[dict]) -> str | None:
     """Citations use either a manifest id ('doc_id') or the file name stem ('doc')."""
     if citation.get("doc_id"):
-        legacy = {"qd1830-2021": "qc-dao-tao"}
-        return legacy.get(citation["doc_id"], citation["doc_id"])
+        return citation["doc_id"]
     stem = _nfc(citation.get("doc", "")).upper()
     for m in manifest:
         if _nfc(m["file"]).rsplit(".", 1)[0].upper() == stem:
@@ -103,11 +102,11 @@ def resolve(citation: dict, chunks_by_doc: dict[str, list[Chunk]], manifest: lis
             hits = kept
         return bool(kept)
 
-    art = citation.get("dieu") or (int(m.group(1)) if (m := _ARTICLE.search(loc)) else None)
+    art = int(m.group(1)) if (m := _ARTICLE.search(loc)) else None
     if art is not None:
         if not narrow(lambda c: c.article == int(art)):
             return []
-        k = citation.get("khoan") or (m.group(1) if (m := _KHOAN.search(loc)) else None)
+        k = m.group(1) if (m := _KHOAN.search(loc)) else None
         if k is not None:
             k = re.match(r"\d+", str(k)).group(0)
             narrow(lambda c: k in c.khoan or c.part[1] == 1)

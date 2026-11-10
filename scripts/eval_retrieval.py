@@ -156,7 +156,7 @@ def main() -> None:
         md.append(f"| {run.corpus} | {run.name} | {fmt(m.get('R@1'))} | {fmt(m.get('R@3'))} | {fmt(m.get('R@5'))} | "
                   f"{fmt(m.get('R@10'))} | {fmt(m.get('Full@5'))} | {fmt(m.get('MRR@10'))} | {fmt(m['refusal_AUC'])} |")
 
-    best_run, best = max(((r, m) for r, m in res if r.corpus == "structure"), key=lambda x: x[1].get("MRR@10", 0))
+    best_run, _ = max(((r, m) for r, m in res if r.corpus == "structure"), key=lambda x: x[1].get("MRR@10", 0))
     md += ["", f"## Breakdown for the best method: {best_run.name}", "",
            "| Group | n | R@1 | R@5 | MRR@10 |", "|---|---:|---:|---:|---:|"]
     for field in ("type", "source", "multi_doc"):

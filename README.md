@@ -76,9 +76,10 @@ python scripts/run_generation.py --split test --final  # once, at the end
 ```
 
 Notebooks:
+- **`00_demo_workflow`: start here.** It follows five questions through every stage (chunks, the four retrieval
+  stages, prompt, closed-book vs RAG answers), then shows the test results. It runs in seconds from the saved outputs.
 - `01_ingest_and_chunk` shows the chunks.
 - `02_index_and_retrieval` compares the search methods.
-- `03_ask` answers a new question with citations.
 
 Hardware used: Intel i5-12450H, GTX 1650 (4 GB), 16 GB RAM.
 
@@ -91,7 +92,7 @@ scripts/         build_chunks, run_models, eval_retrieval, run_generation, eval_
 prompts/         rag_system, closed_system, judge_system
 eval/            golden.jsonl (dev/test), gold_chunks.json
 reports/         generated results (chunk stats, retrieval, generation per split, dev runs v1-v3)
-notebooks/       01 ingest and chunk, 02 index and retrieval, 03 ask
+notebooks/       00 demo workflow, 01 ingest and chunk, 02 index and retrieval
 tests/           pytest with synthetic .docx fixtures and a fake LLM
 ```
 
