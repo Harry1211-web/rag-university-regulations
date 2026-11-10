@@ -1,0 +1,126 @@
+# Corpus manifest. The documents themselves are NOT committed (data/ is git-ignored):
+# they were downloaded from the TDTU student portal (login required) and re-typed from scans.
+# `file` is relative to RAG_DATA_DIR (default: ../DA03_data/data/text).
+#
+# origin:   internal = student portal; web = public web search; mixed = both (see notes)
+# in_force: true unless we know the document was replaced. Used as a retrieval filter.
+
+- id: qc-dao-tao
+  title: Quy chế tổ chức và quản lý đào tạo trình độ đại học
+  file: QUY CHẾ TỔ CHỨC VÀ QUẢN LÝ ĐÀO TẠO TRÌNH ĐỘ ĐẠI HỌC.docx
+  decision: 1830/QĐ-TĐT (08/09/2021)
+  applies_to: cohorts admitted from 2021
+  origin: internal
+  in_force: true
+
+- id: qc-ren-luyen
+  title: Quy chế đánh giá kết quả rèn luyện của sinh viên trình độ đại học hệ chính quy
+  file: QUY CHẾ ĐÁNH GIÁ KẾT QUẢ RÈN LUYỆN CỦA SINH VIÊN TRÌNH ĐỘ ĐẠI HỌC HỆ CHÍNH QUY.docx
+  applies_to: from school year 2025-2026
+  origin: internal
+  in_force: true
+
+- id: qd-cong-nhan-tin-chi
+  title: Quy định công nhận kết quả học tập và chuyển đổi tín chỉ trong giáo dục đại học
+  file: QUY ĐỊNH CÔNG NHẬN KẾT QUẢ HỌC TẬP VÀ CHUYỂN ĐỔI TÍN CHỈ TRONG GIÁO DỤC ĐẠI HỌC.docx
+  origin: internal
+  in_force: true
+
+- id: qd-tieng-anh-clc
+  title: Quy định về việc đào tạo tiếng Anh cho sinh viên trình độ đại học, chuyên sâu đặc thù chương trình chất lượng cao
+  file: QUY ĐỊNH VỀ VIỆC ĐÀO TẠO TIẾNG ANH CHO SINH VIÊN TRÌNH ĐỘ ĐẠI HỌC, CHUYÊN SÂU ĐẶC THÙ.docx
+  applies_to: high-quality (CLC) programme, cohorts from 2023
+  origin: internal
+  in_force: true
+
+- id: qd-ung-dung-cong-nghe
+  title: Quy định về ứng dụng công nghệ trong tổ chức và quản lý các hoạt động giáo dục
+  file: QUY ĐỊNH VỀ ỨNG DỤNG CÔNG NGHỆ TRONG TỔ CHỨC VÀ QUẢN LÝ CÁC HOẠT ĐỘNG GIÁO DỤC.docx
+  origin: internal
+  in_force: true
+
+- id: qd-tap-su
+  title: Trích Quy định về hoạt động tập sự nghề nghiệp
+  file: QUY ĐỊNH VỀ HOẠT ĐỘNG TẬP SỰ NGHỀ NGHIỆP.docx
+  note: excerpt only (Điều 2-7, 11)
+  origin: internal
+  in_force: true
+
+- id: qd-cu-nhan-uu-tu
+  title: Quy định cấp chứng nhận Cử nhân/Kỹ sư ưu tú
+  file: QUY ĐỊNH CẤP CHỨNG NHẬN CỬ NHÂN, KỸ SƯ ƯU TÚ.docx
+  origin: internal
+  in_force: true
+
+- id: hd-hoc-bong
+  title: Hướng dẫn học bổng, khen thưởng, hỗ trợ người học; học bổng hỗ trợ cho cộng đồng và hỗ trợ khác
+  file: HỌC BỔNG, KHEN THƯỞNG, HỖ TRỢ NGƯỜI HỌC; HỌC BỔNG HỖ TRỢ CHO CỘNG ĐỒNG VÀ HỖ TRỢ KHÁC.docx
+  applies_to: from school year 2025-2026
+  origin: internal
+  in_force: true
+
+- id: dk-thu-khen
+  title: Điều kiện về việc cấp thư khen học tập - rèn luyện cho sinh viên
+  file: ĐIỀU KIỆN VỀ VIỆC CẤP THƯ KHEN HỌC TẬP - RÈN LUYỆN CHO SINH VIÊN.docx
+  origin: internal
+  in_force: true
+
+- id: tb-ha-bac-tot-nghiep
+  title: Xét hạ bậc xếp loại tốt nghiệp Giỏi, Xuất sắc do tín chỉ học lại vượt quá 5%
+  file: XÉT HẠ BẬC XẾP LOẠI TỐT NGHIỆP GIỎI, XUẤT SẮC CỦA SINH VIÊN KHÓA TUYỂN SINH NĂM 2021 TRỞ VỀ SAU DO TỔNG SỐ TÍN CHỈ PHẢI HỌC LẠI VƯỢT QUÁ 5% TÍN CHỈ SO VỚI TOÀN CHƯƠNG TRÌNH.docx
+  applies_to: cohorts admitted from 2021
+  origin: internal
+  in_force: true
+
+- id: noi-quy-phong-thi
+  title: Nội quy phòng thi
+  file: NỘI QUY PHÒNG THI.docx
+  decision: 21/2020/TĐT-QĐ (06/01/2020)
+  origin: internal
+  in_force: true
+
+- id: phu-luc-vi-pham
+  title: Phụ lục Quy chế công tác sinh viên - Những điều sinh viên không được làm; nội dung vi phạm và hình thức xử lý
+  file: PHỤ LỤC NHỮNG ĐIỀU SINH VIÊN KHÔNG ĐƯỢC LÀM; NỘI DUNG VI PHẠM VÀ HÌNH THỨC XỬ LÝ SINH VIÊN.docx
+  origin: internal
+  in_force: true
+
+- id: quy-tac-ung-xu
+  title: Bộ quy tắc ứng xử của người học
+  file: BỘ QUY TẮC ỨNG XỬ CỦA NGƯỜI HỌC.docx
+  origin: internal
+  in_force: true
+
+- id: hd-giao-tiep
+  title: Hướng dẫn về giao tiếp, ứng xử cho người học tại Trường Đại học Tôn Đức Thắng
+  file: HƯỚNG DẪN VỀ GIAO TIẾP, ỨNG XỬ CHO NGƯỜI HỌC TẠI TRƯỜNG ĐẠI HỌC TÔN ĐỨC THẮNG.docx
+  origin: internal
+  in_force: true
+
+- id: ct-3-noi-dung-dao-duc
+  title: Chương trình giáo dục 3 nội dung đạo đức
+  file: CHƯƠNG TRÌNH GIÁO DỤC 3 NỘI DUNG ĐẠO ĐỨC.docx
+  origin: internal
+  in_force: true
+
+- id: dac-diem-nhan-dien
+  title: Bảng mô tả 5 đặc điểm nhận diện sinh viên TDTU gắn với triết lý giáo dục khai phóng
+  file: ĐẶC ĐIỂM NHẬN DIỆN SINH VIÊN TDTU.docx
+  origin: internal
+  in_force: true
+
+- id: phong-ban
+  title: Thông tin các phòng, ban, trung tâm
+  file: THÔNG TIN CÁC PHÒNG, BAN, TRUNG TÂM.docx
+  origin: internal
+  in_force: true
+
+- id: thong-tin-chung
+  title: Thông tin chung về Trường Đại học Tôn Đức Thắng
+  file: THÔNG TIN CHUNG VỀ TRƯỜNG ĐẠI HỌC TÔN ĐỨC THẮNG.docx
+  origin: mixed
+  note: >-
+    Section 1 (founding) comes from the legal basis of the exam-room rules decision.
+    Section 2 was added from a public web search on 2026-11-07 (tdtu.edu.vn). Core values,
+    slogan and code-of-conduct principles were found but deliberately WITHHELD to test refusal.
+  in_force: true

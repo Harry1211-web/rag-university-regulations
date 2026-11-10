@@ -1,0 +1,7 @@
+# Only for scripts/run_models.py (downloads models from Hugging Face; CPU is enough).
+# On Windows/CPU, install torch first from https://download.pytorch.org/whl/cpu to avoid the 2 GB CUDA build:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+sentence-transformers>=3.0
+sentencepiece>=0.2   # tokenizer of AITeamVN/Vietnamese_Reranker (no tokenizer.json in that repo)
+protobuf>=4

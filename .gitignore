@@ -1,0 +1,23 @@
+# corpus and anything derived from its full text (private portal documents)
+data/
+reports/*_fake.*
+*.docx
+*.doc
+*.pdf
+# screenshots of the SHCD quiz contain a student's name and ID
+*.jpg
+*.jpeg
+*.png
+
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# editor / tool state (may hold local tokens)
+.markdown-collab/
+.vscode/
+.idea/

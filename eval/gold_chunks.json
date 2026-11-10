@@ -1,0 +1,823 @@
+{
+ "shcd01": [
+  [
+   "qc-dao-tao#010"
+  ]
+ ],
+ "shcd02": [
+  [
+   "thong-tin-chung#002"
+  ]
+ ],
+ "shcd03": [
+  [
+   "qc-dao-tao#009"
+  ],
+  [
+   "qc-dao-tao#026"
+  ]
+ ],
+ "shcd04": [
+  [
+   "qc-dao-tao#012"
+  ],
+  [
+   "qc-dao-tao#027"
+  ]
+ ],
+ "shcd07": [
+  [
+   "thong-tin-chung#002"
+  ]
+ ],
+ "shcd09": [
+  [
+   "qc-dao-tao#045"
+  ]
+ ],
+ "shcd10": [
+  [
+   "qc-dao-tao#051"
+  ]
+ ],
+ "shcd11": [
+  [
+   "qc-dao-tao#042"
+  ]
+ ],
+ "shcd13": [
+  [
+   "phong-ban#005"
+  ]
+ ],
+ "shcd15": [
+  [
+   "qc-dao-tao#045"
+  ]
+ ],
+ "shcd16": [
+  [
+   "qd-tieng-anh-clc#006"
+  ]
+ ],
+ "shcd18": [
+  [
+   "qc-dao-tao#009"
+  ],
+  [
+   "qc-dao-tao#026"
+  ]
+ ],
+ "shcd19": [
+  [
+   "qc-dao-tao#026"
+  ]
+ ],
+ "shcd20": [
+  [
+   "dac-diem-nhan-dien#001",
+   "dac-diem-nhan-dien#002",
+   "dac-diem-nhan-dien#003",
+   "dac-diem-nhan-dien#004",
+   "dac-diem-nhan-dien#005"
+  ],
+  [
+   "thong-tin-chung#002"
+  ]
+ ],
+ "shcd21": [
+  [
+   "qd-tieng-anh-clc#006"
+  ]
+ ],
+ "shcd22": [
+  [
+   "dac-diem-nhan-dien#001",
+   "dac-diem-nhan-dien#002",
+   "dac-diem-nhan-dien#003",
+   "dac-diem-nhan-dien#004",
+   "dac-diem-nhan-dien#005"
+  ]
+ ],
+ "shcd23": [
+  [
+   "quy-tac-ung-xu#008"
+  ],
+  [
+   "thong-tin-chung#002"
+  ]
+ ],
+ "shcd24": [
+  [
+   "thong-tin-chung#001"
+  ]
+ ],
+ "shcd25": [
+  [
+   "qc-dao-tao#044"
+  ],
+  [
+   "qc-dao-tao#062"
+  ]
+ ],
+ "shcd27": [
+  [
+   "qc-dao-tao#046"
+  ]
+ ],
+ "shcd28": [
+  [
+   "phong-ban#005"
+  ]
+ ],
+ "shcd29": [
+  [
+   "qd-tieng-anh-clc#013",
+   "qd-tieng-anh-clc#014",
+   "qd-tieng-anh-clc#015"
+  ],
+  [
+   "qd-tieng-anh-clc#018"
+  ],
+  [
+   "qc-dao-tao#065"
+  ]
+ ],
+ "shcd30": [
+  [
+   "qc-dao-tao#011"
+  ]
+ ],
+ "q001": [
+  [
+   "qc-dao-tao#007"
+  ]
+ ],
+ "q002": [
+  [
+   "qc-dao-tao#007"
+  ]
+ ],
+ "q003": [
+  [
+   "qc-dao-tao#021"
+  ]
+ ],
+ "q004": [
+  [
+   "qc-dao-tao#021"
+  ]
+ ],
+ "q005": [
+  [
+   "qc-dao-tao#021"
+  ]
+ ],
+ "q006": [
+  [
+   "qc-dao-tao#021"
+  ]
+ ],
+ "q007": [
+  [
+   "qc-dao-tao#012"
+  ],
+  [
+   "qc-dao-tao#030"
+  ]
+ ],
+ "q008": [
+  [
+   "qc-dao-tao#012"
+  ]
+ ],
+ "q009": [
+  [
+   "qc-dao-tao#006"
+  ],
+  [
+   "qd-ung-dung-cong-nghe#005"
+  ]
+ ],
+ "q010": [
+  [
+   "qc-dao-tao#024"
+  ],
+  [
+   "qc-dao-tao#048"
+  ]
+ ],
+ "q011": [
+  [
+   "qc-dao-tao#041"
+  ],
+  [
+   "qc-dao-tao#056"
+  ]
+ ],
+ "q012": [
+  [
+   "qc-dao-tao#038"
+  ]
+ ],
+ "q013": [
+  [
+   "qc-dao-tao#044"
+  ],
+  [
+   "qc-dao-tao#062"
+  ]
+ ],
+ "q014": [
+  [
+   "qc-dao-tao#042"
+  ]
+ ],
+ "q015": [
+  [
+   "qc-dao-tao#042"
+  ]
+ ],
+ "q016": [
+  [
+   "qc-dao-tao#042"
+  ]
+ ],
+ "q017": [
+  [
+   "qc-dao-tao#045",
+   "qc-dao-tao#046"
+  ]
+ ],
+ "q018": [
+  [
+   "qc-dao-tao#045",
+   "qc-dao-tao#046"
+  ]
+ ],
+ "q019": [
+  [
+   "qc-dao-tao#057"
+  ]
+ ],
+ "q020": [
+  [
+   "qc-dao-tao#059"
+  ]
+ ],
+ "q021": [
+  [
+   "qc-dao-tao#058"
+  ]
+ ],
+ "q022": [
+  [
+   "qc-dao-tao#059",
+   "tb-ha-bac-tot-nghiep#002"
+  ]
+ ],
+ "q023": [
+  [
+   "qc-dao-tao#034"
+  ]
+ ],
+ "q024": [
+  [
+   "qc-dao-tao#054"
+  ]
+ ],
+ "q025": [
+  [
+   "qc-dao-tao#013"
+  ]
+ ],
+ "q026": [
+  [
+   "qc-dao-tao#014"
+  ]
+ ],
+ "q027": [
+  [
+   "qc-dao-tao#053"
+  ],
+  [
+   "qc-dao-tao#042"
+  ]
+ ],
+ "q028": [
+  [
+   "qc-dao-tao#029"
+  ]
+ ],
+ "q029": [
+  [
+   "qc-dao-tao#029"
+  ]
+ ],
+ "q030": [
+  [
+   "qc-dao-tao#030"
+  ]
+ ],
+ "q031": [
+  [
+   "qc-dao-tao#030"
+  ]
+ ],
+ "q032": [
+  [
+   "qc-dao-tao#035"
+  ]
+ ],
+ "q033": [
+  [
+   "qc-dao-tao#031"
+  ]
+ ],
+ "q034": [
+  [
+   "qc-dao-tao#009",
+   "qc-dao-tao#010",
+   "qc-dao-tao#011"
+  ],
+  [
+   "qc-dao-tao#009",
+   "qc-dao-tao#010",
+   "qc-dao-tao#011"
+  ]
+ ],
+ "q035": [
+  [
+   "qc-dao-tao#062"
+  ],
+  [
+   "qc-dao-tao#063"
+  ]
+ ],
+ "q036": [
+  [
+   "qc-dao-tao#009",
+   "qc-dao-tao#010",
+   "qc-dao-tao#011"
+  ],
+  [
+   "qc-dao-tao#026"
+  ]
+ ],
+ "q037": [
+  [
+   "qc-dao-tao#026"
+  ]
+ ],
+ "q038": [
+  [
+   "qc-dao-tao#026"
+  ],
+  [
+   "qc-dao-tao#026"
+  ]
+ ],
+ "q039": [
+  [
+   "qc-dao-tao#043"
+  ]
+ ],
+ "q040": [
+  [
+   "qc-dao-tao#043"
+  ],
+  [
+   "qc-dao-tao#041"
+  ],
+  [
+   "qc-dao-tao#053"
+  ]
+ ],
+ "q041": [
+  [
+   "qc-dao-tao#051"
+  ]
+ ],
+ "q042": [
+  [
+   "qc-dao-tao#027"
+  ]
+ ],
+ "q043": [
+  [
+   "qc-dao-tao#065"
+  ]
+ ],
+ "q044": [
+  [
+   "qc-dao-tao#052"
+  ]
+ ],
+ "q045": [
+  [
+   "qc-dao-tao#026"
+  ]
+ ],
+ "q046": [
+  [
+   "qc-dao-tao#027"
+  ]
+ ],
+ "q047": [
+  [
+   "qc-dao-tao#024"
+  ]
+ ],
+ "q048": [
+  [
+   "qc-dao-tao#055"
+  ],
+  [
+   "qc-dao-tao#055"
+  ]
+ ],
+ "q049": [
+  [
+   "qc-dao-tao#036"
+  ]
+ ],
+ "q050": [
+  [
+   "qc-dao-tao#045",
+   "qc-dao-tao#046"
+  ]
+ ],
+ "q051": [
+  [
+   "qc-dao-tao#033"
+  ]
+ ],
+ "q052": [
+  [
+   "qc-dao-tao#028"
+  ],
+  [
+   "qc-dao-tao#028"
+  ]
+ ],
+ "q053": [
+  [
+   "qc-dao-tao#045",
+   "qc-dao-tao#046"
+  ]
+ ],
+ "q055": [
+  [
+   "qd-tieng-anh-clc#018"
+  ],
+  [
+   "qd-tieng-anh-clc#008"
+  ]
+ ],
+ "q056": [
+  [
+   "hd-hoc-bong#038",
+   "hd-hoc-bong#041"
+  ],
+  [
+   "hd-hoc-bong#039"
+  ]
+ ],
+ "q057": [
+  [
+   "qc-ren-luyen#029"
+  ]
+ ],
+ "q058": [
+  [
+   "phong-ban#014"
+  ]
+ ],
+ "q061": [
+  [
+   "noi-quy-phong-thi#009"
+  ],
+  [
+   "noi-quy-phong-thi#010"
+  ],
+  [
+   "phu-luc-vi-pham#009"
+  ]
+ ],
+ "q062": [
+  [
+   "noi-quy-phong-thi#006"
+  ],
+  [
+   "noi-quy-phong-thi#010"
+  ]
+ ],
+ "q063": [
+  [
+   "qd-tap-su#001"
+  ],
+  [
+   "qd-tap-su#004"
+  ]
+ ],
+ "q064": [
+  [
+   "qc-ren-luyen#003"
+  ]
+ ],
+ "q065": [
+  [
+   "qc-ren-luyen#022"
+  ]
+ ],
+ "q066": [
+  [
+   "qc-ren-luyen#012"
+  ]
+ ],
+ "q067": [
+  [
+   "qc-ren-luyen#030"
+  ]
+ ],
+ "q068": [
+  [
+   "qc-ren-luyen#030"
+  ]
+ ],
+ "q069": [
+  [
+   "qd-cong-nhan-tin-chi#004"
+  ]
+ ],
+ "q070": [
+  [
+   "qd-cong-nhan-tin-chi#010"
+  ]
+ ],
+ "q071": [
+  [
+   "qd-cong-nhan-tin-chi#004"
+  ],
+  [
+   "qc-dao-tao#054"
+  ]
+ ],
+ "q072": [
+  [
+   "qd-tap-su#001"
+  ]
+ ],
+ "q073": [
+  [
+   "qd-tap-su#005"
+  ]
+ ],
+ "q074": [
+  [
+   "qd-tap-su#006"
+  ]
+ ],
+ "q075": [
+  [
+   "qd-cu-nhan-uu-tu#003"
+  ]
+ ],
+ "q076": [
+  [
+   "qd-cu-nhan-uu-tu#003"
+  ]
+ ],
+ "q077": [
+  [
+   "qd-cu-nhan-uu-tu#002"
+  ]
+ ],
+ "q078": [
+  [
+   "qd-cu-nhan-uu-tu#003"
+  ]
+ ],
+ "q079": [
+  [
+   "tb-ha-bac-tot-nghiep#002"
+  ]
+ ],
+ "q080": [
+  [
+   "tb-ha-bac-tot-nghiep#002"
+  ],
+  [
+   "qc-dao-tao#059"
+  ]
+ ],
+ "q081": [
+  [
+   "tb-ha-bac-tot-nghiep#002"
+  ]
+ ],
+ "q082": [
+  [
+   "dk-thu-khen#005"
+  ]
+ ],
+ "q083": [
+  [
+   "dk-thu-khen#005"
+  ]
+ ],
+ "q084": [
+  [
+   "dk-thu-khen#002",
+   "dk-thu-khen#004"
+  ]
+ ],
+ "q085": [
+  [
+   "hd-hoc-bong#042"
+  ]
+ ],
+ "q086": [
+  [
+   "hd-hoc-bong#042"
+  ]
+ ],
+ "q087": [
+  [
+   "hd-hoc-bong#040"
+  ]
+ ],
+ "q088": [
+  [
+   "hd-hoc-bong#045"
+  ]
+ ],
+ "q089": [
+  [
+   "hd-hoc-bong#021"
+  ]
+ ],
+ "q090": [
+  [
+   "hd-hoc-bong#002"
+  ]
+ ],
+ "q091": [
+  [
+   "hd-hoc-bong#049"
+  ]
+ ],
+ "q092": [
+  [
+   "hd-hoc-bong#069"
+  ]
+ ],
+ "q093": [
+  [
+   "hd-hoc-bong#070"
+  ]
+ ],
+ "q094": [
+  [
+   "hd-hoc-bong#012"
+  ]
+ ],
+ "q095": [
+  [
+   "qd-tieng-anh-clc#005"
+  ]
+ ],
+ "q096": [
+  [
+   "qd-tieng-anh-clc#004"
+  ]
+ ],
+ "q097": [
+  [
+   "qd-tieng-anh-clc#006"
+  ]
+ ],
+ "q098": [
+  [
+   "qd-tieng-anh-clc#004"
+  ]
+ ],
+ "q099": [
+  [
+   "qd-tieng-anh-clc#002"
+  ]
+ ],
+ "q100": [
+  [
+   "qd-ung-dung-cong-nghe#019"
+  ]
+ ],
+ "q101": [
+  [
+   "qd-ung-dung-cong-nghe#019"
+  ]
+ ],
+ "q102": [
+  [
+   "qd-ung-dung-cong-nghe#019"
+  ]
+ ],
+ "q103": [
+  [
+   "qd-ung-dung-cong-nghe#017"
+  ]
+ ],
+ "q104": [
+  [
+   "noi-quy-phong-thi#006"
+  ]
+ ],
+ "q105": [
+  [
+   "noi-quy-phong-thi#006"
+  ]
+ ],
+ "q106": [
+  [
+   "noi-quy-phong-thi#007"
+  ]
+ ],
+ "q107": [
+  [
+   "noi-quy-phong-thi#009"
+  ]
+ ],
+ "q108": [
+  [
+   "noi-quy-phong-thi#007"
+  ]
+ ],
+ "q109": [
+  [
+   "phu-luc-vi-pham#005"
+  ]
+ ],
+ "q110": [
+  [
+   "phu-luc-vi-pham#006"
+  ]
+ ],
+ "q111": [
+  [
+   "phu-luc-vi-pham#008"
+  ]
+ ],
+ "q112": [
+  [
+   "phu-luc-vi-pham#011"
+  ]
+ ],
+ "q113": [
+  [
+   "phu-luc-vi-pham#009"
+  ]
+ ],
+ "q114": [
+  [
+   "quy-tac-ung-xu#010"
+  ]
+ ],
+ "q115": [
+  [
+   "quy-tac-ung-xu#008"
+  ]
+ ],
+ "q116": [
+  [
+   "hd-giao-tiep#006"
+  ]
+ ],
+ "q117": [
+  [
+   "hd-giao-tiep#009"
+  ]
+ ],
+ "q118": [
+  [
+   "ct-3-noi-dung-dao-duc#001",
+   "ct-3-noi-dung-dao-duc#002",
+   "ct-3-noi-dung-dao-duc#003",
+   "ct-3-noi-dung-dao-duc#004"
+  ]
+ ],
+ "q119": [
+  [
+   "phong-ban#010"
+  ]
+ ],
+ "q120": [
+  [
+   "phong-ban#006"
+  ]
+ ],
+ "q121": [
+  [
+   "phong-ban#015"
+  ]
+ ]
+}

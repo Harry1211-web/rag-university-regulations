@@ -1,0 +1,19 @@
+[project]
+name = "rag-university-regulations"
+version = "0.1.0"
+description = "RAG assistant for Vietnamese university regulations (TDTU), evaluated against a closed-book baseline"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 130
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"notebooks/*.ipynb" = ["E402", "E501", "I001"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

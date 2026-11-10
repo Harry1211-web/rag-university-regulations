@@ -1,0 +1,4752 @@
+{
+ "metrics": {
+  "closed-api": {
+   "n": 62,
+   "overall": 0.4112903225806452,
+   "mcq_acc": 0.8,
+   "free_acc": 0.30851063829787234,
+   "false_refusal": 0.2982456140350877,
+   "refusal_recall": 0.6
+  },
+  "rag-api": {
+   "n": 62,
+   "overall": 0.7580645161290323,
+   "mcq_acc": 0.6,
+   "free_acc": 0.7659574468085106,
+   "false_refusal": 0.07017543859649122,
+   "refusal_recall": 1.0,
+   "cites_any": 1.0,
+   "cites_gold": 1.0,
+   "cite_precision": 0.910377358490566,
+   "invalid_cites": 0,
+   "grounded": 1.0,
+   "gold_in_context": 0.9649122807017544
+  },
+  "closed-local": {
+   "n": 62,
+   "overall": 0.20967741935483872,
+   "mcq_acc": 0.7,
+   "free_acc": 0.1276595744680851,
+   "false_refusal": 0.07017543859649122,
+   "refusal_recall": 0.0
+  },
+  "rag-local": {
+   "n": 62,
+   "overall": 0.6290322580645161,
+   "mcq_acc": 0.7,
+   "free_acc": 0.6170212765957447,
+   "false_refusal": 0.0,
+   "refusal_recall": 0.6,
+   "cites_any": 1.0,
+   "cites_gold": 0.9473684210526315,
+   "cite_precision": 0.6728070175438595,
+   "invalid_cites": 0,
+   "grounded": 0.46808510638297873,
+   "gold_in_context": 0.9649122807017544
+  }
+ },
+ "judge_agreement": {
+  "closed-api": [
+   47,
+   0.8297872340425532,
+   0.7698898408812729
+  ],
+  "rag-api": [
+   47,
+   0.5319148936170213,
+   0.03364485981308412
+  ],
+  "closed-local": [
+   47,
+   0.6808510638297872,
+   0.5187713310580204
+  ],
+  "rag-local": [
+   47,
+   0.5957446808510638,
+   0.31935975609756095
+  ]
+ },
+ "per_question": {
+  "closed-api": [
+   {
+    "id": "shcd03",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b\n\nSinh viên có thể nộp đơn không tính điểm môn tự chọn vào điểm trung bình tích lũy nếu đã tích lũy vượt số tín chỉ yêu cầu của nhóm; môn đó có thể đạt hoặc không đạt.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd05",
+    "expected": "refuse",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b\n\nSơ đồ đào tạo thể hiện cấu trúc và điều kiện của chương trình học; sơ đồ tích lũy thể hiện tiến độ hoàn thành chương trình và kết quả học tập của sinh viên.",
+    "score": 0.0
+   },
+   {
+    "id": "shcd09",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nSinh viên kiểm tra lịch thi tổng hợp: nếu môn có lịch thi khác phù hợp thì nộp đơn Chuyển giờ thi; nếu không có lịch thi khác thì nộp đơn Hoãn thi. Nộp đơn trên Cổng thông tin sinh viên trong thời hạn quy định.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd11",
+    "expected": "answer",
+    "type": "tinh_toan",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: a\n\nĐiểm môn học = 10×10% + 8×20% + 5×20% + 7×50% = **7,1 điểm**.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd15",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nSinh viên có thể được xem xét hoãn thi khi trùng lịch học hoặc lịch thi trong Trường, được cử tham gia hoạt động ngoài Trường, phải nhập viện do ốm đau hoặc tai nạn, hoặc gia đình có tang thuộc các trường hợp nêu trên.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd17",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: a\n\nSinh viên xem thông báo đóng học phí trên Cổng thông tin sinh viên, vào phân hệ **Thông báo** → **Xem theo đơn vị** → **Phòng Tài chính**.",
+    "score": 0.0
+   },
+   {
+    "id": "shcd21",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nSinh viên cần nộp chứng chỉ trước tuần diễn ra môn học ít nhất 2 tuần hoặc trước tuần diễn ra học kỳ ít nhất 2 tuần.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd22",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: a\n\nCác đặc điểm nhận diện sinh viên TDTU là văn minh, xếp hàng, chuyên nghiệp, phụng sự và kỷ luật.",
+    "score": 0.0
+   },
+   {
+    "id": "shcd25",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: d\n\nSinh viên có thể bị điểm F nếu không hoàn thành nghĩa vụ học phí, không đáp ứng yêu cầu môn học hoặc vắng quá số buổi quy định.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd26",
+    "expected": "refuse",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: a\n\nNguyên tắc ứng xử của Trường Đại học Tôn Đức Thắng là **Dân chủ, Công bằng, Hiệu quả, Phụng sự**.",
+    "score": 0.0
+   },
+   {
+    "id": "shcd27",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b\n\nSinh viên được đăng ký dự thi trong thời hạn 01 năm học kế tiếp kể từ học kỳ được giải quyết hoãn thi; vì vậy, HK2/2026–2027 thuộc thời hạn này.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd28",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: a\n\nBạn có thể tìm đến Chuyên viên Tâm lý khi gặp áp lực, lo âu, khó thích nghi, trải qua biến cố hoặc đơn giản là muốn có người lắng nghe.",
+    "score": 1.0
+   },
+   {
+    "id": "q002",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Một tiết học trên lớp kéo dài **50 phút**.",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 1.0
+   },
+   {
+    "id": "q003",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Học kỳ chính phải đăng ký ít nhất **14 tín chỉ**.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q016",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "6,9 điểm là C+ theo thang điểm của TDTU.",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 1.0
+   },
+   {
+    "id": "q017",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên có tối đa **1 năm kể từ khi được ghi điểm H** để hoàn thành kỳ thi.",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q022",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Có thể. Nếu số tín chỉ của các học phần bị điểm F phải học lại vượt quá 5% tổng số tín chỉ của chương trình, xếp loại tốt nghiệp xuất sắc hoặc giỏi sẽ bị hạ một bậc theo quy định của Bộ GD&ĐT.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q029",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "GPA học kỳ đầu dưới 0,8/4,0 thì bị cảnh báo học tập.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q030",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q034",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Môn **tiên quyết** phải **đạt/tích lũy** trước khi đăng ký môn tiếp theo. Môn **học trước** chỉ cần được học trước môn tiếp theo, thường không bắt buộc phải đạt; bạn nên kiểm tra điều kiện cụ thể của môn trong chương trình đào tạo TDTU.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q035",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Thông thường, sinh viên chưa hoàn thành nghĩa vụ học phí đúng hạn có thể không được dự thi. Bạn nên kiểm tra thông báo học phí và tình trạng đủ điều kiện dự thi trên hệ thống TDTU hoặc liên hệ Phòng Tài chính để xác nhận.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q036",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không bắt buộc học lại đúng môn tự chọn đã rớt; bạn có thể đăng ký môn tự chọn khác trong cùng nhóm để đủ số tín chỉ theo chương trình đào tạo. Hãy kiểm tra nhóm môn và điều kiện cụ thể trong chương trình học của bạn.",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 1.0
+   },
+   {
+    "id": "q037",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q038",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Khi học lại nhiều lần, điểm cao nhất trong các lần học được dùng để tính kết quả học tập.",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 1.0
+   },
+   {
+    "id": "q040",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Vắng thi không phép thì bị tính **0 điểm cho lần thi đó**; điểm học phần được tính theo quy định đánh giá của môn học.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q042",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Vì lý do cá nhân, sinh viên cần **đã học ít nhất một học kỳ** và được Trường chấp thuận đơn xin tạm nghỉ học, bảo lưu kết quả.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q047",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Bạn thực hiện rút môn trên **Cổng thông tin sinh viên TDTU** trong thời hạn nhà trường thông báo.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q048",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q049",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên nộp đơn đăng ký học ngành 2 tại Phòng Đại học.",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q053",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Nếu lịch thi hai môn bị trùng, hãy báo ngay cho Phòng/Trung tâm phụ trách học vụ hoặc Văn phòng khoa để được kiểm tra và hướng dẫn đổi lịch; gửi kèm mã môn, lớp và ảnh chụp lịch thi. Không tự ý bỏ một buổi thi hoặc nộp đơn hoãn thi trước khi được xác nhận cách xử lý.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q054",
+    "expected": "refuse",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 1.0
+   },
+   {
+    "id": "q055",
+    "expected": "answer",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q056",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q057",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm rèn luyện toàn khóa tối thiểu **50 điểm** thì đủ điều kiện tốt nghiệp.",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 1.0
+   },
+   {
+    "id": "q058",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q059",
+    "expected": "refuse",
+    "type": "thong_tin",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 1.0
+   },
+   {
+    "id": "q064",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm rèn luyện được chấm theo **5 nội dung**, với điểm tối đa lần lượt là **20, 25, 20, 25 và 10 điểm** (tổng cộng 100 điểm).",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q067",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Nếu bị xếp loại rèn luyện yếu trong cả năm học (hai học kỳ), bạn phải tạm ngừng học một học kỳ ở năm học tiếp theo. Nếu tiếp tục bị xếp loại yếu trong cả năm học lần thứ hai, bạn có thể bị buộc thôi học.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q071",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Khối lượng học tập được công nhận và chuyển đổi tín chỉ tối đa **không vượt quá 50% khối lượng học tập tối thiểu của chương trình đào tạo**.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q073",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm do doanh nghiệp đánh giá chiếm tối thiểu **50%** điểm tập sự.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q077",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không. Tốt nghiệp trễ tiến độ thì không đủ điều kiện xét danh hiệu Cử nhân ưu tú.",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 1.0
+   },
+   {
+    "id": "q078",
+    "expected": "answer",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "incorrect",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q079",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không. Điểm R là học phần được miễn học và công nhận tín chỉ, không phải học phần học lại nên không tính vào số tín chỉ học lại khi xét hạ bậc tốt nghiệp.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q084",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q086",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Nhận học bổng loại Khá, vì mức học bổng được xét theo mức thấp hơn giữa học lực và kết quả rèn luyện.",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 1.0
+   },
+   {
+    "id": "q088",
+    "expected": "answer",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q089",
+    "expected": "answer",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q094",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q096",
+    "expected": "answer",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q099",
+    "expected": "answer",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q101",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Học liệu môn học trực tuyến phải được đăng tải trước khi môn học bắt đầu ít nhất **1 tuần**.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q104",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên đến trễ quá 15 phút kể từ khi bắt đầu tính giờ làm bài sẽ không được vào phòng thi.",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 1.0
+   },
+   {
+    "id": "q105",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q106",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên được nộp bài và ra khỏi phòng thi sau khi đã làm bài ít nhất **2/3 thời gian quy định**.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q107",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Nhìn bài bạn trong giờ thi bị trừ **25% tổng số điểm bài thi**.",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 1.0
+   },
+   {
+    "id": "q108",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "incorrect",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q111",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q112",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q113",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không bị kỷ luật thêm một cách tự động. Mức trừ 25% là hình thức xử lý theo quy chế thi; nếu có tình tiết nghiêm trọng hoặc tái phạm, nhà trường có thể xem xét xử lý thêm theo quy định.",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q118",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": false,
+    "answer": "Chương trình gồm: **đạo đức công dân, đạo đức nghề nghiệp và đạo đức TDTU**.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q119",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": false,
+    "answer": "Thư viện Truyền cảm hứng nằm tại cơ sở chính TDTU, số 19 Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP. Hồ Chí Minh.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q126",
+    "expected": "refuse",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 1.0
+   }
+  ],
+  "rag-api": [
+   {
+    "id": "shcd03",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b\n\nSinh viên có thể đề nghị không tính điểm môn tự chọn khi đã tích lũy vượt số tín chỉ yêu cầu của chương trình đào tạo [2]. Riêng môn tự chọn không đạt, có thể đề nghị loại bỏ nếu đã tích lũy đủ tín chỉ của nhóm tự chọn [1].",
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#026",
+     "qc-dao-tao#009"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd05",
+    "expected": "refuse",
+    "type": "thong_tin",
+    "refused": true,
+    "mcq": true,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 1.0,
+    "gold_in_context": null,
+    "cited": [],
+    "cites_gold": null,
+    "cite_precision": null,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd09",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": true,
+    "mcq": true,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 0.0,
+    "gold_in_context": true,
+    "cited": [],
+    "cites_gold": false,
+    "cite_precision": null,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd11",
+    "expected": "answer",
+    "type": "tinh_toan",
+    "refused": true,
+    "mcq": true,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 0.0,
+    "gold_in_context": false,
+    "cited": [],
+    "cites_gold": false,
+    "cite_precision": null,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd15",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nCác trường hợp được nêu gồm trùng lịch học hoặc lịch thi, được cử đi thi ngoài trường hoặc tham gia chuyên đề/hoạt động xã hội, ốm đau hoặc tai nạn phải nhập viện, và gia đình có tang (ông bà, cha mẹ, anh chị em ruột). [1][2]",
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#045",
+     "qc-dao-tao#046"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd17",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": true,
+    "mcq": true,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 0.0,
+    "gold_in_context": true,
+    "cited": [],
+    "cites_gold": false,
+    "cite_precision": null,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd21",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nNộp chứng chỉ ít nhất 02 tuần trước tuần bắt đầu học kỳ hoặc tuần bắt đầu môn học; đồng thời đề nghị hủy đăng ký môn học để được miễn học. [1]",
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qd-tieng-anh-clc#006"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd22",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nNăm đặc điểm nhận diện là Kỷ luật, Lễ phép, Chuyên nghiệp, Sáng tạo và Phụng sự.[1][2][3][4][5]",
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "dac-diem-nhan-dien#001",
+     "dac-diem-nhan-dien#002",
+     "dac-diem-nhan-dien#004",
+     "dac-diem-nhan-dien#005",
+     "dac-diem-nhan-dien#003"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd25",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: d\n\nKhông hoàn thành nghĩa vụ học phí, không đáp ứng yêu cầu bắt buộc của môn học hoặc không đảm bảo mức tối thiểu 80% yêu cầu học tập đều có thể dẫn đến điểm F. [1][2]",
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#044",
+     "qc-dao-tao#062"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd26",
+    "expected": "refuse",
+    "type": "thong_tin",
+    "refused": true,
+    "mcq": true,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 1.0,
+    "gold_in_context": null,
+    "cited": [],
+    "cites_gold": null,
+    "cite_precision": null,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd27",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b\n\nĐiểm H do hoãn thi cuối kỳ có thể được xử lý trong thời hạn 01 năm học kế tiếp; sinh viên cần theo dõi lịch thi để đăng ký xóa điểm H khi Trường tổ chức đánh giá phần tương ứng. Học kỳ 2/2026–2027 thuộc năm học kế tiếp sau học kỳ 2/2025–2026. [1]",
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#046"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd28",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": true,
+    "mcq": true,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 0.0,
+    "gold_in_context": false,
+    "cited": [],
+    "cites_gold": false,
+    "cite_precision": null,
+    "invalid_cites": []
+   },
+   {
+    "id": "q002",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Một tiết học trên lớp kéo dài 50 phút. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#007"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q003",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Học kỳ chính phải đăng ký tối thiểu 10 tín chỉ, trừ học kỳ cuối khóa và trường hợp sinh viên không đạt trình độ tiếng Anh theo quy định. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#021"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q016",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "6,9 điểm là **C+** (từ 6,0 đến dưới 7,0). [1]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#042"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q017",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên có **1 năm học kế tiếp** để thi lại/xóa điểm H. Nếu hết thời hạn mà chưa có điểm đánh giá thay thế, điểm H chuyển thành 0. [1][2]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#046",
+     "qc-dao-tao#050"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q022",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Có, nếu tổng số tín chỉ của các môn phải học lại vượt quá 5% tổng số tín chỉ của chương trình thì sinh viên xếp loại Giỏi hoặc Xuất sắc bị hạ một mức: Giỏi xuống Khá, Xuất sắc xuống Giỏi. [2][3]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "tb-ha-bac-tot-nghiep#002",
+     "qc-dao-tao#059"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q029",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên bị cảnh báo nếu điểm trung bình chung học kỳ đầu dưới 2,00. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#029"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q030",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên có thể bị buộc thôi học khi:\n\n- Bị cảnh báo kết quả học tập hai lần liên tiếp; vượt quá thời gian học tối đa; bị kỷ luật ở mức xóa tên khỏi danh sách sinh viên; hoặc hết thời hạn nghỉ học tạm thời mà không nhập học lại. [1]\n- Bị xếp loại rèn luyện yếu, kém hai học kỳ liên tiếp lần thứ hai; trường hợp ngoại lệ do Hội đồng xem xét, quyết định. [2]\n- Một số vi phạm có thể dẫn đến buộc thôi học theo số lần hoặc mức độ vi phạm, như vi phạm quy định về rượu bia, thuốc lá, mượn/cho mượn thẻ sinh viên; các vi phạm khác cũng có thể bị xử lý đến mức buộc thôi học tùy mức độ. [4][5]",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#030",
+     "qc-ren-luyen#030",
+     "phu-luc-vi-pham#011",
+     "phu-luc-vi-pham#003"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.25,
+    "invalid_cites": []
+   },
+   {
+    "id": "q034",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Môn tiên quyết là môn phải được sinh viên đăng ký học **và đạt** trước khi đăng ký môn tiếp theo [1]. Văn bản hiện có không nêu định nghĩa cụ thể của môn học trước, nên chưa đủ căn cứ để xác định điểm khác nhau [1][2].",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "no"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#010",
+     "qc-dao-tao#008"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q035",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không. Sinh viên chưa hoàn thành nghĩa vụ học phí đúng thời hạn và không được xét gia hạn sẽ không đủ điều kiện dự thi tất cả các môn học [1].",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#063"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q036",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không bắt buộc. Nếu rớt môn tự chọn, sinh viên có thể học lại môn đó hoặc chọn môn tự chọn khác theo quy định; miễn tích lũy đủ số tín chỉ của nhóm tự chọn thì không nhất thiết phải học lại môn đã rớt. [1][2][3]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#009",
+     "qc-dao-tao#005",
+     "qc-dao-tao#026"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.6666666666666666,
+    "invalid_cites": []
+   },
+   {
+    "id": "q037",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không. Điểm học cải thiện không được tính khi xét học bổng khuyến khích học tập. [1][2][3]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#026",
+     "hd-hoc-bong#038",
+     "hd-hoc-bong#041"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.3333333333333333,
+    "invalid_cites": []
+   },
+   {
+    "id": "q038",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Lấy điểm cao nhất trong các lần học lại làm kết quả chính thức của môn học. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#026"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q040",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm V (vắng thi không phép) được tính như điểm 0. [4]",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#043"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q042",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Để xin nghỉ học tạm thời và bảo lưu kết quả vì lý do cá nhân, sinh viên phải đã học tối thiểu 01 học kỳ tại Trường, không thuộc diện bị xem xét buộc thôi học hoặc kỷ luật, và có điểm trung bình chung tích lũy từ 5,00 trở lên. Thời gian nghỉ được tính vào thời gian học chính thức. [2]",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#027"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q047",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên nộp đơn rút môn học trực tuyến trên Cổng thông tin sinh viên. [1]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#024"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q048",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên nộp đơn phúc khảo trực tuyến trên Cổng thông tin sinh viên. Quy trình thực hiện theo quy định về Khảo thí và đo lường kết quả học tập và Thủ tục phúc khảo bài thi của Trường. [1]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#055"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q049",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên nộp đơn trực tuyến trên Cổng thông tin sinh viên theo thông báo của Phòng Đại học. [1]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#036"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q053",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Nếu bị trùng lịch thi, sinh viên nộp đơn Hoãn thi trong thời hạn quy định được công bố cùng lịch thi. [1]  \nĐể được ghi nhận điểm H, sinh viên cần đáp ứng các điều kiện áp dụng và có đơn xin điểm H. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#045"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q054",
+    "expected": "refuse",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 1.0,
+    "gold_in_context": null,
+    "cited": [],
+    "cites_gold": null,
+    "cite_precision": null,
+    "invalid_cites": []
+   },
+   {
+    "id": "q055",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Chuẩn đầu ra tiếng Anh cần IELTS từ 5.5 trở lên, với từng kỹ năng đạt tối thiểu 4.5. [1]",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qd-tieng-anh-clc#018"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q056",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "GPA từ **7,0 trở lên (loại Khá)**. Sinh viên năm nhất được xét theo năm học; sinh viên từ năm thứ hai trở lên theo học kỳ xét học bổng. [2][1]",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "no"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "hd-hoc-bong#041",
+     "hd-hoc-bong#038"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q057",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm rèn luyện trung bình toàn khóa tối thiểu **50 điểm** để đủ điều kiện xét tốt nghiệp. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-ren-luyen#029"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q058",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Ký túc xá tiếp nhận và giải quyết thủ tục đăng ký nội trú. Bạn có thể liên hệ tại Tòa nhà K, qua số (028) 37 760 652 hoặc email ktx@tdtu.edu.vn. [1]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "phong-ban#014"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q059",
+    "expected": "refuse",
+    "type": "thong_tin",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 1.0,
+    "gold_in_context": null,
+    "cited": [],
+    "cites_gold": null,
+    "cite_precision": null,
+    "invalid_cites": []
+   },
+   {
+    "id": "q064",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm rèn luyện được chấm theo **6 nội dung**, mỗi nội dung tối đa **20 điểm**. [1]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-ren-luyen#003"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q067",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên bị xếp loại rèn luyện yếu hai học kỳ liên tiếp phải tạm ngừng học ít nhất một học kỳ tiếp theo. [1]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-ren-luyen#030"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q071",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Khối lượng học tập được công nhận và chuyển đổi tín chỉ tối đa không vượt quá 50% khối lượng học tập của chương trình đào tạo đang học. [1][2]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#054",
+     "qd-cong-nhan-tin-chi#004"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q073",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm do doanh nghiệp đánh giá chiếm tối thiểu **30%** điểm tập sự nghề nghiệp. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qd-tap-su#005"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q077",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không. Điều kiện xét yêu cầu sinh viên tốt nghiệp đúng hoặc vượt tiến độ; quy định chung cũng nêu sinh viên phải tốt nghiệp đúng hoặc trước tiến độ. [1][2]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qd-cu-nhan-uu-tu#002",
+     "qd-cu-nhan-uu-tu#001"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q078",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Các ngành khác cần IELTS ≥ 5.5; riêng ngành Ngôn ngữ Trung Quốc (chuyên ngành Trung – Anh) cần IELTS ≥ 6.0 để đạt điều kiện tiếng Anh xét Cử nhân/Kỹ sư ưu tú. [1]",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qd-cu-nhan-uu-tu#003"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q079",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không. Môn có điểm R được loại trừ, không tính là môn học phải học lại khi xét hạ bậc tốt nghiệp. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "tb-ha-bac-tot-nghiep#002"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q084",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Có. Sinh viên có môn chưa đạt do rút môn học (điểm R) vẫn được tham gia xét thư khen [1][2].",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "dk-thu-khen#002",
+     "dk-thu-khen#004"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q086",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Học lực Xuất sắc nhưng rèn luyện loại Khá thì được xét học bổng loại Khá. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "hd-hoc-bong#042"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q088",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Có. Anh/chị em ruột đang học ngành chính tại Trường theo đúng khóa học được xét học bổng bằng 15% học phí theo khung chương trình đào tạo tiêu chuẩn/năm học, áp dụng từ người học thứ hai trở đi. Cần nộp đầy đủ hồ sơ theo thông báo của Trường; học bổng cấp vào cuối năm học 2025–2026. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "hd-hoc-bong#045"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q089",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Nếu là tân sinh viên trúng tuyển và nhập học năm 2025, có chứng chỉ tiếng Anh quốc tế tương đương IELTS 8.5 còn thời hạn theo quy định của Trường thì được học bổng **50% học phí học kỳ 1 năm học 2025–2026** theo khung chương trình đào tạo tiêu chuẩn. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "hd-hoc-bong#021"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q094",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Có. Nếu em trúng tuyển và nhập học vào nhóm ngành thu hút 1, đồng thời nộp đơn đề nghị và có xác nhận của địa phương theo mẫu TDTU, em được xét học bổng 20% học phí học kỳ 1 năm học 2025–2026. [1]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "hd-hoc-bong#012"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q096",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm tổng kết môn tiếng Anh được tính bằng **ĐTK = ĐQT + ĐCK**; trong đó điểm đánh giá quá trình (ĐQT) chiếm **60%**, điểm thi cuối kỳ (ĐCK) chiếm **40%**, theo thang điểm 100. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qd-tieng-anh-clc#004"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q099",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Chương trình kỹ sư chất lượng cao gồm **10 học phần tiếng Anh**: 5 học phần dự bị và 5 học phần chính thức. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qd-tieng-anh-clc#002"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q101",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Học liệu điện tử phải được cung cấp cho người học ít nhất **03 ngày trước khi môn học bắt đầu**. [1][4]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qd-ung-dung-cong-nghe#019",
+     "qd-ung-dung-cong-nghe#021"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q104",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sau 15 phút kể từ khi tính giờ làm bài, thí sinh không được vào phòng thi. [1][2]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "noi-quy-phong-thi#003",
+     "noi-quy-phong-thi#006"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q105",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Nếu quên thẻ sinh viên, bạn phải làm cam kết và bổ sung giấy tờ tùy thân tại phòng Hội đồng trong vòng 24 giờ kể từ lúc dự thi; nếu không bổ sung, bài thi sẽ bị hủy. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "noi-quy-phong-thi#006"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q106",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sau khi đã làm bài được 1/2 thời gian thi, bạn được nộp bài và ra về. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "noi-quy-phong-thi#007"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q107",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Nhìn bài của thí sinh khác trong giờ thi bị trừ 25% số điểm thi. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "noi-quy-phong-thi#009"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q108",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Chỉ được dùng bút chì để vẽ hình hoặc sử dụng compa; các trường hợp khác không được dùng bút chì làm bài thi. [1]",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "noi-quy-phong-thi#007"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q111",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Thi hộ người khác: lần 1 bị đình chỉ học tập có thời hạn; lần 2 bị buộc thôi học. Nếu hành vi cấu thành vi phạm pháp luật, Nhà trường chuyển hồ sơ cho cơ quan chức năng xử lý. [2]",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "phu-luc-vi-pham#008"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q112",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Uống bia trong Trường bị **cảnh cáo lần 1**; lần 2 cảnh cáo lần 2, lần 3 đình chỉ học tập có thời hạn và lần 4 buộc thôi học. Số lần tính trong cả khóa học. [1]",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "phu-luc-vi-pham#011"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q113",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Có. Nếu vi phạm lần đầu bị xử lý ở mức trừ 25% điểm thi, hình thức xử lý tương ứng là **nghiêm khắc phê bình**; số lần vi phạm được tính trong cả khóa học. [1]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "phu-luc-vi-pham#009"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q118",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": false,
+    "answer": "Chương trình giáo dục 3 nội dung đạo đức gồm:\n\n1. Học tập suốt đời để làm chủ tri thức và công nghệ. [1]\n2. Sống kỷ cương, trung thực và có trách nhiệm. [3]\n3. Đoàn kết, phụng sự và cống hiến vì cộng đồng. [2]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "ct-3-noi-dung-dao-duc#002",
+     "ct-3-noi-dung-dao-duc#004",
+     "ct-3-noi-dung-dao-duc#003"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q119",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": false,
+    "answer": "Thư viện nằm tại Tòa nhà Thư viện truyền cảm hứng (Tòa nhà G). [1]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "phong-ban#010"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q126",
+    "expected": "refuse",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 1.0,
+    "gold_in_context": null,
+    "cited": [],
+    "cites_gold": null,
+    "cite_precision": null,
+    "invalid_cites": []
+   }
+  ],
+  "closed-local": [
+   {
+    "id": "shcd03",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b\n\nGiải thích: Theo quy định của Bộ Giáo dục và Đào tạo về việc tính toán điểm trung bình tích lũy, sinh viên được phép nộp đơn xin không tính điểm một môn học vào tổng số tín chỉ đã hoàn thành khi môn học đó thuộc nhóm tự chọn và sinh viên đã vượt quá yêu cầu tối thiểu về số tín chỉ cần đạt cho nhóm môn học đó.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd05",
+    "expected": "refuse",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b\n\nGiải thích: Theo quy chế của Trường Đại học Tôn Đức Thắng (TDTU) và Bộ Giáo dục & Đào tạo, hai sơ đồ này có chức năng khác biệt rõ rệt. Sơ đồ đào tạo là bản đồ kiến thức cố định, hiển thị cấu trúc chương trình với các môn học bắt buộc, điều kiện tiên quyết, nhóm tự chọn theo lộ trình và đề cương chi tiết. Trong khi đó, sơ đồ tích lũy là công cụ theo dõi cá nhân hóa của sinh viên, phản ánh quá trình thực tế đã hoàn thành, điểm số trung bình (tích lũy, học kỳ) và trạng thái đạt được các điều kiện để tốt nghiệp dựa trên lịch sử học tập cụ thể của từng người.",
+    "score": 0.0
+   },
+   {
+    "id": "shcd09",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nGiải thích: Theo quy chế thi tập trung của Trường Đại học Tôn Đức Thắng, sinh viên bị trùng lịch thi cần tự kiểm tra lịch thi tổng hợp để xác định phương án xử lý (Chuyển giờ hoặc Hoãn thi) và nộp đơn trực tuyến trên Cổng thông tin sinh viên trong thời gian quy định. Trường không tự động điều chỉnh lịch cho từng cá nhân mà dựa trên hồ sơ đơn xin của sinh viên.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd11",
+    "expected": "answer",
+    "type": "tinh_toan",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\nGiải thích: Điểm môn học được tính bằng tổng các điểm thành phần nhân với tỷ trọng tương ứng: (10 × 0,1) + (8 × 0,2) + (5 × 0,2) + (7 × 0,5) = 1 + 1,6 + 1 + 3,5 = 7,2.",
+    "score": 0.0
+   },
+   {
+    "id": "shcd15",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nGiải thích: Theo quy chế của Trường Đại học Tôn Đức Thắng (TDTU), sinh viên được xem xét hoãn thi khi có các trường hợp trùng lịch thi trong trường với các kỳ thi, chuyên đề ngắn hạn hoặc hoạt động đoàn thể xã hội; ốm đau hoặc tai nạn phải nhập viện; gia đình có tang (ông bà, cha mẹ, anh chị em ruột). Các lựa chọn khác thiếu sót hoặc không đầy đủ so với quy định chính thức.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd17",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: a\nTheo quy định về công tác thanh toán học phí và quản lý thông tin của Trường Đại học Tôn Đức Thắng, thông báo chi tiết về đối tượng đóng học phí, thời hạn và hướng dẫn thực hiện được đăng tải trên Cổng thông tin sinh viên (Sinh viên.edu.vn) trong phân hệ \"Thông báo\". Sinh viên cần chọn lọc theo đơn vị để xem thông báo cụ thể từ Phòng Tài chính - Kế toán. Các kênh như Facebook hay website phòng riêng lẻ không phải là nơi chính thức duy nhất để truy cập quy chế và thông báo hành chính này.",
+    "score": 0.0
+   },
+   {
+    "id": "shcd21",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nGiải thích: Theo quy định của Trường Đại học Tôn Đức Thắng về việc miễn thi môn tiếng Anh, sinh viên đủ điều kiện nộp chứng chỉ quốc tế phải thực hiện trong thời hạn là trước ít nhất 02 tuần so với tuần diễn ra môn học hoặc trước ít nhất 02 tuần so với tuần bắt đầu học kỳ.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd22",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: a\nTheo quy chế sinh viên và văn hóa đại học của Trường Đại học Tôn Đức Thắng, đặc điểm nhận diện sinh viên được xác định qua 5 từ khóa: Văn minh, Xếp hàng, Chuyên nghiệp, Phụng sự và Kỷ luật.",
+    "score": 0.0
+   },
+   {
+    "id": "shcd25",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: d\n\nGiải thích: Theo Quy chế quản lý đào tạo của Trường Đại học Tôn Đức Thắng và các văn bản hướng dẫn thi cử, sinh viên sẽ bị điểm \"F\" (không đủ điều kiện thi) nếu vi phạm đồng thời hoặc bất kỳ một trong các điều kiện sau: không hoàn thành nghĩa vụ học phí theo thông báo; không đạt yêu cầu môn học như thông báo của giảng viên tại buổi đầu tiên; hoặc vắng mặt quá số buổi quy định của môn học. Do đó, tất cả các phương án a, b và c đều đúng.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd26",
+    "expected": "refuse",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b\n\nNguyên tắc hoạt động của Trường Đại học Tôn Đức Thắng được quy định tại Điều 10 Luật Giáo dục đại học là \"Giáo dục, nghiên cứu và sáng tạo vì sự phát triển toàn diện của con người và xã hội\". Các lựa chọn còn lại thường liên quan đến sứ mệnh hoặc mục tiêu phát triển chứ không phải là nguyên tắc hoạt động cốt lõi.",
+    "score": 0.0
+   },
+   {
+    "id": "shcd27",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b. Sinh viên có thể đăng ký dự thi trong thời hạn 01 năm học kế tiếp kể từ học kỳ được giải quyết cho hoãn thi.\n\n**Giải thích:** Theo quy chế của Trường Đại học Tôn Đức Thắng và Bộ Giáo dục & Đào tạo, sinh viên được phép hoãn thi sẽ có quyền đăng ký dự thi lại môn học đó trong thời hạn một năm học tính đến học kỳ được giải quyết việc hoãn thi. Do đó, nếu sinh viên A được giải quyết việc hoãn thi vào Học kỳ 2/2025-2026, thì họ hoàn toàn có quyền đăng ký thi lại cho Học kỳ 2/2026-2027 (tức là năm học kế tiếp). Các phương án còn lại không đúng với quy định về thời hạn và trách nhiệm chủ động đăng ký của sinh viên.",
+    "score": 1.0
+   },
+   {
+    "id": "shcd28",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: a\nChuyên viên Tâm lý tại Trường Đại học Tôn Đức Thắng (TDTU) cung cấp dịch vụ hỗ trợ, tư vấn và trị liệu cho sinh viên trong mọi tình huống cần thiết, bao gồm áp lực học tập, lo âu, khó thích nghi, gặp biến cố bất ngờ hoặc đơn giản là muốn có không gian để chia sẻ và lắng nghe. Việc tìm kiếm sự giúp đỡ từ chuyên gia tâm lý được khuyến khích ở mọi giai đoạn của quá trình học tập và phát triển bản thân, không chỉ giới hạn trong các trường hợp nghiêm trọng hay khi đã có chẩn đoán y khoa.",
+    "score": 1.0
+   },
+   {
+    "id": "q002",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Theo quy định tại Điều 10 Quy chế tổ chức và hoạt động của Trường Đại học Tôn Đức Thắng, một tiết học trên lớp kéo dài **45 phút**.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q003",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: B (theo quy định chung của Bộ GD&ĐT và các trường đại học).\n\nHọc sinh đang theo chương trình đào tạo chính quy bắt buộc phải đăng ký đủ số tín chỉ tối thiểu do cơ sở giáo dục xác định cho từng năm học, thường là từ 24 đến 30 tín chỉ tùy thuộc vào khối ngành và phương thức giảng dạy (tự học hoặc trực tiếp). Sinh viên cần tham khảo cụ thể trong \"Thông báo đăng ký học kỳ\" của Trường Đại học Tôn Đức Thắng để biết chính xác số lượng tín chỉ bắt buộc cho năm học hiện tại.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q016",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không tìm thấy trong các văn bản hiện có.\n\n*Lưu ý: Theo quy định chung của Bộ Giáo dục và Đào tạo, thang điểm 10 thường chia thành A (trên 8), B (từ 6 đến dưới 8) và C (dưới 6). Tuy nhiên, cụ thể mức điểm 6,9 thuộc nhóm nào có thể phụ thuộc vào từng đơn vị đào tạo hoặc quy định chi tiết của Trường Đại học Tôn Đức Thắng. Bạn nên kiểm tra lại với Ban Giám hiệu hoặc Phòng Đào tạo để được thông tin chính xác nhất.*",
+    "grades": {
+     "api": "incorrect",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q017",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Theo quy định hiện hành, sinh viên bị điểm H trong kỳ thi chính thức sẽ được tổ chức thi lại ngay trong cùng năm học (thường là vào giữa học kỳ hoặc cuối học kỳ tùy từng môn). Thời gian cụ thể do Ban Giám hiệu trường và Bộ Giáo dục & Đào tạo thông báo qua các văn bản chỉ đạo hàng năm, nhưng nguyên tắc chung là sinh viên có cơ hội thi lại trước khi kết thúc năm học để hoàn thành yêu cầu tín chỉ.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q022",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không, việc học lại nhiều lần không tự động dẫn đến bị hạ loại.\n\nTheo quy định hiện hành của Bộ Giáo dục và Đào tạo cũng như quy chế sinh viên của Trường Đại học Tôn Đức Thắng, sinh viên chỉ bị **hạ loại** khi có một trong các trường hợp sau:\n1. Không đủ số tín chỉ (điểm) để tốt nghiệp theo quy định của chương trình đào tạo.\n2. Có dấu hiệu vi phạm pháp luật hoặc quy chế sinh viên nghiêm trọng.\n3. Bị đình chỉ học tập và không được phép tiếp tục học.\n\nViệc **học lại** là quyền lợi được phép để sinh viên hoàn thiện kiến thức, lấy lại tín chỉ đã mất mà không làm giảm điểm trung bình chung (GPA) của mình. Tuy nhiên, nếu do học lại quá nhiều lần dẫn đến tổng số tín chỉ tích lũy không đủ để tốt nghiệp trong thời gian quy định, sinh viên sẽ bị **tạm dừng** hoặc **hạ loại** vì không đáp ứng điều kiện tốt nghiệp, chứ không phải do bản thân việc học lại gây ra.",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q029",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không tìm thấy trong các văn bản hiện có.\n\n*Lý do:* Quy định cụ thể về điểm số trung bình học tập (GPA) để bị cảnh báo thường thuộc nội dung chi tiết của quy chế sinh viên từng năm hoặc các văn bản hướng dẫn thi cử, mà thông tin này không được ghi rõ trong các quy định chung phổ biến nhất hiện hành. Bạn nên tham khảo trực tiếp Quy chế sinh viên của Trường Đại học Tôn Đức Thắng hoặc liên hệ Phòng Đào tạo để có thông tin chính xác nhất cho trường hợp cụ thể của bạn.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q030",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Theo quy định tại Điều 13 Luật Giáo dục 2019 và các văn bản hướng dẫn thi hành, sinh viên bị buộc thôi học khi có một trong các trường hợp sau:\n\n1. **Vi phạm nghiêm trọng kỷ luật:** Sinh viên vi phạm quy chế quản lý của nhà trường hoặc pháp luật về an ninh trật tự, gây hậu quả xấu cho tập thể (ví dụ: đánh nhau, tham gia tệ nạn xã hội).\n2. **Không hoàn thành yêu cầu đào tạo:** Không đủ điều kiện để tốt nghiệp theo chương trình đào tạo đã đăng ký (thường là sau 3 lần thi lại môn học hoặc thực hành không đạt).\n3. **Vi phạm pháp luật nghiêm trọng:** Bị xử lý hình sự do vi phạm pháp luật, dẫn đến việc đình chỉ học tập và không được phép tiếp tục học.\n4. **Lý do sức khỏe:** Không đủ điều kiện về sức khỏe để theo học (theo quyết định của cơ quan y tế có thẩm quyền).\n\n*Lưu ý: Việc buộc thôi học phải được thực hiện thông qua thủ tục hành chính chính thức, bao gồm việc lập biên bản và phê duyệt của Ban Giám đốc nhà trường.*",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q034",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Môn tiên quyết là môn học bắt buộc phải hoàn thành để được đăng ký và học môn học kế tiếp, trong khi môn học trước không nhất thiết phải có điều kiện tiên quyết như vậy.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q035",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không. Theo quy định về quản lý học sinh, sinh viên và quy chế thi cử của Trường Đại học Tôn Đức Thắng (TDTU) cũng như các văn bản hướng dẫn thi cử chung của Bộ Giáo dục và Đào tạo, việc tham gia kỳ thi chính thức yêu cầu sinh viên phải đã đăng ký dự thi và hoàn tất nghĩa vụ tài chính (đóng học phí). Sinh viên chưa đóng học phí sẽ không được phép đăng ký dự thi.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q036",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không bắt buộc. Theo quy định hiện hành, sinh viên chỉ cần đạt điểm trung bình chung từ 5.0 trở lên để tốt nghiệp; các môn tự chọn rớt sẽ được phép thi lại hoặc học lại theo kế hoạch đào tạo của trường mà không ảnh hưởng đến việc xét tốt nghiệp nếu tổng điểm vẫn đạt yêu cầu.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q037",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không. Việc học tập để cải thiện điểm số thường không được tính vào tiêu chí xét học bổng vì các điều kiện xét học bổng yêu cầu sinh viên phải đạt đủ chỉ tiêu điểm trung bình (GPA) tại kỳ thi hoặc năm học đó, chứ không dựa trên quá trình tự học thêm sau khi đã có kết quả.",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 1.0
+   },
+   {
+    "id": "q038",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: c) Điểm cao nhất.\n\nTheo quy định tại Điều 13 Luật Giáo dục và Thông tư liên tịch của Bộ GD&ĐT, khi sinh viên học lại môn học, điểm số được tính theo kết quả cao nhất trong các lần thi đã tổ chức.",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 1.0
+   },
+   {
+    "id": "q040",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: B (0 điểm).\n\nTheo quy định tại Điều 13 Thông tư số 24/2020/TT-BGDĐT về việc thi cử và kiểm tra đánh giá đối với sinh viên đại học, trường hợp sinh viên vắng mặt khi thi mà không có lý do chính đáng hoặc không được phép thì điểm môn học đó sẽ được tính là **0 điểm**.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "no"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q042",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Để bảo lưu học tập vì lý do cá nhân, sinh viên cần có sự đồng ý của Ban Giám hiệu nhà trường và phải hoàn thành các thủ tục theo quy định tại Điều 13 Quy chế quản lý đào tạo của Trường Đại học Tôn Đức Thắng.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q047",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Quy trình rút môn được thực hiện trực tuyến qua Hệ thống Quản trị Học tập (LMS) hoặc tại phòng học tập của Trường Đại học Tôn Đức Thắng tùy theo quy định cụ thể của từng khoa và thời điểm đăng ký.",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q048",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Để phúc khảo bài thi, sinh viên cần thực hiện theo quy định tại Điều 13 Nghị định số 82/2014/NĐ-CP của Chính phủ về thi cử và đánh giá kết quả học tập. Cụ thể:\n\n1. **Thời gian nộp đơn:** Sinh viên phải nộp đơn xin phúc khảo trong vòng **05 ngày làm việc** kể từ ngày nhận được kết quả thi (hoặc thông báo kết quả).\n2. **Địa điểm nộp đơn:** Đơn phúc khảo được nộp tại **Ban Tổ chức kỳ thi** hoặc **Phòng Quản lý đào tạo** của Trường Đại học Tôn Đức Thắng (TDTU) nơi tổ chức kỳ thi đó.\n3. **Nội dung đơn:** Đơn phải nêu rõ lý do yêu cầu phúc khảo và các căn cứ pháp lý liên quan.\n4. **Quy trình xử lý:** Ban Tổ chức sẽ xem xét lại bài thi dựa trên hồ sơ, kết quả chấm của các giám khảo khác và báo cáo kết quả phúc khảo cho sinh viên trong vòng 05 ngày làm việc kể từ ngày nhận đơn.\n\n*Lưu ý: Quy định này áp dụng chung cho cả kỳ thi tốt nghiệp trung học phổ thông và đại học theo văn bản hiện hành.*",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q049",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Tại Phòng Quản lý đào tạo và Công tác sinh viên, Trường Đại học Tôn Đức Thắng (TDTU).\n\nGiải thích: Theo quy chế tuyển sinh của Bộ Giáo dục và Đào tạo cũng như quy định nội bộ của TDTU, hồ sơ đăng ký ngành 2 (học phần) phải được nộp trực tiếp tại Phòng Quản lý đào tạo và Công tác sinh viên để xem xét, thẩm định và quyết định.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q053",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Để xử lý trường hợp bị trùng lịch thi hai môn, bạn cần thực hiện các bước sau theo quy định của Bộ Giáo dục và Đào tạo cũng như quy chế thi cử của Trường Đại học Tôn Đức Thắng:\n\n1. **Liên hệ ngay với Ban tổ chức thi:** Khi nhận được thông báo về việc trùng lịch thi, hãy liên hệ trực tiếp với Ban tổ chức thi môn bị trùng hoặc phòng Quản lý đào tạo để được hướng dẫn cụ thể.\n2. **Xin đơn xin hoãn thi:** Bạn cần lập và nộp đơn xin hoãn thi (thường có mẫu do trường cung cấp) kèm theo lý do cụ thể (ví dụ: lịch thi môn khác, bệnh tật, v.v.).\n3. **Phân loại trùng lịch:**\n   - Nếu trùng giữa các môn cùng một kỳ thi: Ban tổ chức sẽ sắp xếp lại thời gian thi cho bạn trong cùng kỳ đó hoặc chuyển sang kỳ thi tiếp theo tùy thuộc vào quy định cụ thể của trường về số lượng môn thi tối đa.\n   - Nếu trùng giữa các kỳ thi khác nhau (ví dụ: kỳ 1 và kỳ 2): Bạn thường được phép hoãn thi môn bị trùng sang kỳ thi sau, nhưng cần tuân thủ đúng thời hạn nộp đơn xin hoãn theo thông báo của Ban tổ chức.\n4. **Theo dõi thông tin:** Sau khi nộp đơn, hãy theo dõi thông báo từ trường để biết ngày giờ thi mới được phân bổ.\n\n*Lưu ý: Quy trình cụ thể có thể thay đổi tùy theo từng kỳ thi và quyết định của Ban Giám hiệu Trường Đại học Tôn Đức Thắng tại thời điểm đó.*",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q054",
+    "expected": "refuse",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Học phí một tín chỉ năm 2024 đối với sinh viên đại học tại Trường Đại học Tôn Đức Thắng được quy định theo mức giá do Bộ Giáo dục và Đào tạo ban hành, cụ thể là **1.500.000 đồng/tín chỉ** (tương đương 300.000 đồng/điểm tín chỉ).",
+    "score": 0.0
+   },
+   {
+    "id": "q055",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Chào bạn, chuẩn đầu ra tiếng Anh tại Trường Đại học Tôn Đức Thắng không quy định cụ thể một điểm số cố định cho kỳ thi IELTS mà phụ thuộc vào từng chương trình đào tạo và yêu cầu của cơ quan đối tác nước ngoài.\n\nTuy nhiên, theo thông lệ chung của các trường đại học trong nước khi có yêu cầu chứng nhận năng lực tiếng Anh quốc tế (như để du học hoặc làm việc tại nước ngoài), sinh viên thường cần đạt từ **6.0 đến 6.5** (bao gồm cả phần Listening và Writing) tùy theo ngành học cụ thể. Bạn nên kiểm tra kỹ mục \"Yêu cầu ngoại ngữ\" trong quy chế đào tạo của từng khoa hoặc liên hệ trực tiếp với Phòng Đào tạo để biết chính xác yêu cầu cho chương trình bạn đang theo học.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q056",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không có mức GPA cố định chung cho tất cả các học bổng khuyến khích tại TDTU.\n\nGiải thích: Theo quy chế của Trường Đại học Tôn Đức Thắng và Bộ Giáo dục & Đào tạo, điều kiện về điểm trung bình (GPA) để xét duyệt học bổng khuyến khích học tập thường được quy định cụ thể trong từng văn bản hướng dẫn chi tiết của từng năm học hoặc của từng đơn vị tài trợ (như Học bổng Quốc gia, Học bổng TDTU, hay các quỹ từ thiện). Sinh viên cần tham khảo thông báo chính thức của Trường hoặc Bộ GD&ĐT cho năm học hiện tại để biết chính xác mức GPA yêu cầu.",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q057",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: C (hoặc tùy vào văn bản cụ thể bạn đang tham khảo, nhưng theo quy định phổ biến nhất hiện nay là 10 điểm).\n\nGiải thích: Theo Quy chế đào tạo của Trường Đại học Tôn Đức Thắng và các văn bản hướng dẫn thi hành của Bộ Giáo dục và Đào tạo, sinh viên phải đạt tổng số điểm rèn luyện toàn khóa từ **10 điểm trở lên** mới đủ điều kiện tốt nghiệp. Điểm rèn luyện bao gồm các hoạt động như tham gia phong trào thanh niên, lao động, học tập và thực hiện các quy định khác của nhà trường.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q058",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Để đăng ký ký túc xá tại Trường Đại học Tôn Đức Thắng, sinh viên cần thực hiện các bước sau theo quy định hiện hành:\n\n1. **Đăng ký trực tuyến:** Sinh viên truy cập cổng thông tin điện tử của trường (ttdtu.edu.vn) hoặc hệ thống quản lý sinh viên để đăng ký nguyện vọng nhập trú trong phần \"Ký túc xá\".\n2. **Hoàn thiện hồ sơ:** Điền đầy đủ thông tin cá nhân, giấy tờ tùy thân và hình ảnh theo yêu cầu.\n3. **Thanh toán phí:** Thực hiện thanh toán tiền thuê phòng (thường được tính theo số ngày dự kiến ở lại) qua hệ thống ngân hàng hoặc cổng thanh toán của trường.\n4. **Xác nhận nguyện vọng:** Sau khi hoàn tất, sinh viên sẽ nhận được thông báo xác nhận đăng ký và mã QR để in ra làm bằng chứng nhập trú.\n\n*Lưu ý:* Quy trình cụ thể có thể thay đổi tùy theo từng năm học và số lượng chỗ trống; sinh viên nên cập nhật thông tin chính thức trên website của trường hoặc liên hệ trực tiếp với Ban Quản lý Ký túc xá TDTU để được hướng dẫn chi tiết nhất.",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "no"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q059",
+    "expected": "refuse",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": false,
+    "answer": "Thư viện Trường Đại học Tôn Đức Thắng thường mở cửa từ 7:00 sáng đến 19:00 tối, tuy nhiên thời gian cụ thể có thể thay đổi tùy theo từng phòng đọc và lịch sử thi của sinh viên. Bạn nên kiểm tra thông báo cập nhật nhất trên trang web chính thức hoặc ứng dụng e-Service của trường để biết giờ mở cửa chính xác cho ngày hôm nay.",
+    "score": 0.0
+   },
+   {
+    "id": "q064",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm rèn luyện được chấm theo 3 nội dung chính: Đạo đức (tối đa 10 điểm), Kỷ luật (tối đa 10 điểm) và Học tập (tối đa 20 điểm).",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q067",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không tìm thấy trong các văn bản hiện có.\n\n*Lưu ý: Theo quy định chung của Bộ Giáo dục và Đào tạo, việc bị xếp loại rèn luyện yếu liên tiếp thường dẫn đến việc được nhắc nhở hoặc xử lý kỷ luật tùy theo mức độ vi phạm, nhưng cụ thể điều khoản về \"hai học kỳ liên tiếp\" cần tham khảo văn bản quy chế sinh viên mới nhất của Trường Đại học Tôn Đức Thắng để có thông tin chính xác nhất.*",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q071",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Theo quy định hiện hành, khối lượng học tập được công nhận và chuyển đổi thành tín chỉ tối đa là **100%**.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q073",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: B (20%). Theo quy định tại Điều 13, Khoản 4 của Quy chế tập sự của Trường Đại học Tôn Đức Thắng, tổng số điểm tập sự được chia thành hai phần: một phần do sinh viên tự đánh giá và một phần do doanh nghiệp đánh giá. Trong đó, điểm do doanh nghiệp đánh giá chiếm tối thiểu 20% tổng số điểm tập sự.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q077",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không. Theo quy định hiện hành, sinh viên tốt nghiệp trễ tiến độ sẽ không đủ điều kiện để được xét cử nhân ưu tú.\n\n**Giải thích:**\nCử nhân ưu tú là danh hiệu dành riêng cho sinh viên hoàn thành chương trình đào tạo đúng tiến độ (thường là 4 năm đối với khối ngành khoa học xã hội và nhân văn, hoặc theo quy định cụ thể của từng trường) và đạt điểm trung bình chung từ 8.0 trở lên. Sinh viên tốt nghiệp trễ tiến độ sẽ không đáp ứng được tiêu chí về thời gian đào tạo để được xét cử nhân ưu tú.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.5
+   },
+   {
+    "id": "q078",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Để đạt danh hiệu Cử nhân Ưu tú, sinh viên Trường Đại học Tôn Đức Thắng không bắt buộc phải có chứng chỉ IELTS nếu họ không học môn Ngôn ngữ Anh trong chương trình đào tạo. Danh hiệu này thường được xét dựa trên điểm trung bình tích lũy (GPA) và các thành tích khác như giải thưởng, bài báo khoa học hoặc tham gia hoạt động ngoại khóa, tùy theo quy định cụ thể của từng ngành học và năm học.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q079",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: A (Có). Theo quy định tại Điều 10 Thông tư số 24/2019/TT-BGDĐT về việc thi và công nhận kết quả thi, môn học có điểm R (Rất kém) được tính là môn học lại khi xét hạ bậc tốt nghiệp.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q084",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": true,
+    "mcq": false,
+    "answer": "Đáp án: Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q086",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: B\nTheo quy định về tiêu chuẩn xét học bổng của Trường Đại học Tôn Đức Thắng, sinh viên có học lực Xuất sắc nhưng thành tích rèn luyện (đạo đức) đạt mức Khá sẽ được xét hưởng học bổng loại 2. Học bổng loại 1 yêu cầu cả hai yếu tố học lực và rèn luyện đều đạt mức Xuất sắc.",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q088",
+    "expected": "answer",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q089",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không có thông tin cụ thể trong các văn bản hiện có.\n\n*Lưu ý: Thông tin về mức học bổng dựa trên điểm IELTS của Trường Đại học Tôn Đức Thắng thường thay đổi tùy theo năm học và chính sách của từng khoa, chuyên ngành. Bạn nên liên hệ trực tiếp với Phòng Đào tạo hoặc Ban Giám hiệu trường để được thông tin chính xác nhất cho trường hợp cụ thể của bạn.*",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q094",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "incorrect",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q096",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không có đáp án cụ thể trong các văn bản hiện có.\n\n**Giải thích:** Theo quy định của Bộ Giáo dục và Đào tạo, điểm môn Tiếng Anh trong Chương trình Chất lượng Cao (CLC) được tính dựa trên kết quả kiểm tra đánh giá của nhà trường hoặc tổ chức độc lập do Bộ GDDT công nhận, không áp dụng hệ số đặc biệt như một số môn khác. Cụ thể:\n- Đối với sinh viên CLC, điểm môn Tiếng Anh thường được tính bằng trung bình cộng các bài kiểm tra (thường là 2-3 lần/năm) hoặc kết quả thi thử do nhà trường tổ chức.\n- Điểm này có vai trò quan trọng trong việc xác định xếp loại học tập và có thể ảnh hưởng đến việc xét tốt nghiệp, tùy theo quy chế cụ thể của từng đơn vị CLC được Bộ GDDT phê duyệt.\n\nBạn nên tham khảo **Quy chế đào tạo** hoặc **Văn bản hướng dẫn thi cử** của Trường Đại học Tôn Đức Thắng (TDTU) để biết chính xác cách tính điểm áp dụng cho sinh viên trong trường hợp này.",
+    "grades": {
+     "api": "incorrect",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q099",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Chương trình Kỹ sư Chất lượng cao tại Trường Đại học Tôn Đức Thắng hiện không quy định cụ thể số lượng học phần Tiếng Anh trong các văn bản công bố chính thức.\n\n*Lưu ý: Số lượng học phần Tiếng Anh có thể thay đổi tùy theo từng năm đào tạo và quyết định của Bộ Giáo dục và Đào tạo hoặc Ban Giám hiệu trường tại thời điểm đó. Bạn nên tham khảo trực tiếp quy chế đào tạo mới nhất được đăng tải trên cổng thông tin điện tử của Trường Đại học Tôn Đức Thắng để có thông tin chính xác nhất.*",
+    "grades": {
+     "api": "incorrect",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q101",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Theo quy định tại Điều 10, Chương II của Quy chế quản lý hoạt động đào tạo của Trường Đại học Tôn Đức Thắng (ban hành kèm theo Quyết định số 238/QĐ-TDTU ngày 24/06/2021), học liệu môn học trực tuyến phải được chuẩn bị và cung cấp cho sinh viên trước khi bắt đầu giảng dạy **ít nhất 5 ngày làm việc**.\n\nĐiều này nhằm đảm bảo sinh viên có đủ thời gian để tiếp cận, đọc hiểu và nắm vững nội dung bài học trước khi tham gia các hoạt động thực hành hoặc thảo luận trực tuyến.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q104",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Theo quy định chung của Bộ Giáo dục và Đào tạo, thí sinh đi thi muộn hơn **15 phút** so với thời gian bắt đầu dự thi sẽ không được phép vào phòng thi.",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 1.0
+   },
+   {
+    "id": "q105",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": true,
+    "mcq": false,
+    "answer": "Đáp án: Không tìm thấy trong các văn bản hiện có.",
+    "grades": {
+     "api": "refused",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q106",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Chào bạn, quy định cụ thể về thời gian nộp bài và việc mang bài ra khỏi phòng thi phụ thuộc vào loại hình thi (thi trắc nghiệm hay tự luận) và từng trường hợp đặc biệt của Bộ Giáo dục và Đào tạo.\n\nTuy nhiên, theo **Thông tư 29/2018/TT-BGDĐT** quy định về tổ chức kỳ thi tốt nghiệp trung học phổ thông quốc gia:\n- Đối với **thi trắc nghiệm**: Thí sinh được mang bài ra khỏi phòng thi sau khi chấm điểm của giám thị đã được công bố (thường là trong vòng 30 phút sau khi chấm).\n- Đối với **thi tự luận**: Thí sinh được mang bài ra khỏi phòng thi sau khi chấm điểm của giám thị đã được công bố (thường là trong vòng 45 phút sau khi chấm).\n\nLưu ý: Thời gian này chỉ áp dụng cho kỳ thi tốt nghiệp THPT. Đối với các kỳ thi đại học, cao đẳng hoặc thi tuyển sinh vào lớp 10, quy định có thể khác nhau tùy theo văn bản hướng dẫn cụ thể của Bộ GD&ĐT năm đó và quy chế của Trường Đại học Tôn Đức Thắng (TDTU). Bạn nên kiểm tra lại thông báo chi tiết từ Ban tổ chức kỳ thi đang diễn ra tại trường để đảm bảo tuân thủ đúng quy định hiện hành.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q107",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Theo quy định về kỷ luật thi cử của Bộ Giáo dục và Đào tạo, việc nhìn bài thi của người khác sẽ bị xử lý tùy theo mức độ nghiêm trọng:\n- Nếu chỉ nhìn mà không làm gì thêm: Bị trừ 1 điểm.\n- Nếu nhìn và có hành vi hỗ trợ (như đọc lại, ghi chép): Bị loại khỏi kỳ thi hoặc xử lý kỷ luật nặng hơn tùy quy định cụ thể của từng trường.\n\n*Lưu ý: Đây là mức xử lý chung theo văn bản hướng dẫn thi cử quốc gia; Trường Đại học Tôn Đức Thắng có thể áp dụng các biện pháp kỷ luật riêng trong nội bộ.*",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q108",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không. Theo quy định chung về thi cử tại các trường đại học và cao đẳng (bao gồm TDTU), sinh viên được phép sử dụng bút chì đen hoặc bút chì màu khi làm bài thi, nhưng phải ghi rõ tên, số báo danh và ký tên vào đề thi bằng mực xanh hoặc mực đen.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q111",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Theo quy định tại Điều 10 Nghị định số 34/2014/NĐ-CP về thi cử và đánh giá kết quả học tập, nghiên cứu của sinh viên, việc thi hộ người khác là hành vi gian lận nghiêm trọng.\n\nKhi bị phát hiện thi hộ:\n1. **Đối với kỳ thi:** Sinh viên sẽ bị đình chỉ thi hoặc loại khỏi danh sách dự thi; điểm số đạt được không được công nhận.\n2. **Xử lý kỷ luật:** Trường có quyền xử lý kỷ luật từ cảnh cáo đến đuổi học tùy theo mức độ vi phạm và quy định cụ thể của nhà trường tại thời điểm đó (thường là xử lý nặng hơn so với các lỗi khác do tính chất gian lận).\n3. **Trách nhiệm pháp lý:** Nếu hành vi này gây hậu quả nghiêm trọng, sinh viên có thể phải chịu trách nhiệm trước pháp luật về tội làm giả giấy tờ hoặc tham gia vào hoạt động gian lận thi cử.\n\n*Lưu ý: Sinh viên cần tuân thủ nguyên tắc trung thực và tự giác trong mọi hoạt động học tập.*",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q112",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Theo quy định tại Điều 10 và Điều 12 của Quy chế kỷ luật sinh viên của Trường Đại học Tôn Đức Thắng, việc uống bia (thuộc hành vi sử dụng chất kích thích) sẽ bị xử lý theo mức độ:\n\n*   **Vi phạm lần đầu:** Bị khiển trách hoặc cảnh cáo.\n*   **Vi phạm tái phạm:** Bị đình chỉ học tập từ 1 đến 3 tháng.\n*   **Vi phạm nghiêm trọng (tái phạm nhiều lần):** Có thể bị loại khỏi trường.\n\n*Lưu ý: Mức xử lý cụ thể sẽ do Hội đồng kỷ luật của Trường quyết định dựa trên tình tiết thực tế và quy trình điều tra.*",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q113",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Theo quy chế thi cử và xử lý vi phạm của Trường Đại học Tôn Đức Thắng (TDTU) và Bộ Giáo dục & Đào tạo, việc bị trừ 25% điểm thi lần đầu **không** tự động kéo theo hình thức kỷ luật hành chính (như cảnh cáo, khiển trách...).\n\nTuy nhiên, mức độ xử lý còn phụ thuộc vào:\n1. **Nguyên nhân vi phạm:** Nếu do sai sót trong làm bài thì chỉ bị trừ điểm; nếu do gian lận, sử dụng tài liệu trái phép thì sẽ bị xử lý kỷ luật theo quy định về thi cử.\n2. **Lần thứ hai:** Nếu cùng một hành vi vi phạm xảy ra lần thứ 2 (hoặc nhiều hơn), sinh viên sẽ bị xử lý kỷ luật nghiêm trọng hơn (thường là cảnh cáo hoặc khiển trách) và có thể bị loại khỏi kỳ thi.\n\n*Lưu ý: Để biết chính xác tình huống cụ thể của bạn, bạn nên kiểm tra biên bản ghi nhận sự việc tại phòng thi hoặc liên hệ trực tiếp với Ban Giám hiệu/Tổ chức thi của trường.*",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q118",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": false,
+    "answer": "Chương trình Giáo dục công dân cấp trung học phổ thông (THPT) tại Trường Đại học Tôn Đức Thắng và các trường THPT trên cả nước hiện hành theo Thông tư số 24/2019/TT-BGDĐT quy định 3 nội dung đạo đức cốt lõi là:\n1. **Đạo đức cá nhân**: Tuân thủ pháp luật, giữ gìn trật tự an toàn xã hội, bảo vệ môi trường và thực hiện các chuẩn mực đạo đức cơ bản trong đời sống.\n2. **Đạo đức tập thể**: Yêu nước, yêu thương bạn bè, đoàn kết, tương trợ lẫn nhau, tôn trọng sự khác biệt và phát huy tinh thần trách nhiệm chung.\n3. **Đạo đức xã hội**: Tuân thủ pháp luật, giữ gìn trật tự an toàn xã hội, bảo vệ môi trường và thực hiện các chuẩn mực đạo đức cơ bản trong đời sống cộng đồng.\n\n*Lưu ý: Nội dung này được tổng hợp dựa trên Chương trình Giáo dục công dân 2018 (có điều chỉnh) áp dụng cho khối THPT, thường được nhắc đến với 3 nhóm lớn: Đạo đức cá nhân, Đạo đức tập thể và Đạo đức xã hội.*",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q119",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": false,
+    "answer": "Thư viện Trường Đại học Tôn Đức Thắng có trụ sở chính tại số 108 Nguyễn Văn Huyên, Quận 10, TP. Hồ Chí Minh.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "na",
+     "local": "na"
+    },
+    "score": 0.0
+   },
+   {
+    "id": "q126",
+    "expected": "refuse",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Lệ phí thi chứng chỉ IELTS không được quy định trực tiếp trong các văn bản quy chế nội bộ của Trường Đại học Tôn Đức Thắng; sinh viên cần tham khảo thông tin chính thức từ Trung tâm Ngoại ngữ hoặc đơn vị tổ chức thi do Bộ Giáo dục và Đào tạo công bố.",
+    "score": 0.0
+   }
+  ],
+  "rag-local": [
+   {
+    "id": "shcd03",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b\n\nGiải thích:\nTheo quy định tại Điều 15, Khoản 1 của Quy chế [1], sinh viên chỉ được quyền nộp đơn đề nghị loại bỏ môn học có kết quả không đạt để không tham gia tính điểm trung bình chung tích lũy khi đó là \"môn học tự chọn\" và sinh viên đã \"tích lũy đủ số tín chỉ của nhóm tự chọn\".\n\nCụ thể, văn bản ghi rõ: \"Trong trường hợp sinh viên đã tích lũy đủ số tín chỉ của nhóm tự chọn, nếu có môn học không đạt thuộc cùng nhóm tự chọn, sinh viên có quyền nộp đơn đề nghị loại bỏ những môn học có kết quả không đạt để không tham gia vào tính điểm trung bình chung tích lũy.\" [1]\n\nCác lựa chọn khác không đúng vì:\n- Môn học bắt buộc (lựa chọn a) không được ghi rõ quyền nộp đơn loại bỏ điểm trong các văn bản hiện có.\n- Lựa chọn c chỉ nêu môn tự chọn không đạt mà chưa đề cập điều kiện \"tích lũy đủ tín chỉ nhóm\".\n- Lựa chọn d quá chung chung, không phân biệt giữa bắt buộc và tự chọn cũng như điều kiện tích lũy tín chỉ.",
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#026"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd05",
+    "expected": "refuse",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b\n\n**Giải thích:**\nCác văn bản hiện có quy định về cấu trúc chương trình đào tạo, phương thức tính điểm trung bình (điểm học kỳ, điểm tích lũy) và các điều kiện ràng buộc môn học nhưng **không chứa thông tin cụ thể** về giao diện hiển thị của \"Sơ đồ đào tạo\" hay \"Sơ đồ tích lũy\", cũng như không mô tả chi tiết nội dung từng sơ đồ theo cách so sánh như các lựa chọn a, b, c, d. Do đó, không thể xác định được hai sơ đồ này có giống nhau hay khác nhau dựa trên kiến thức trong văn bản.\n\nKhông tìm thấy trong các văn bản hiện có.",
+    "score": 0.0,
+    "gold_in_context": null,
+    "cited": [],
+    "cites_gold": null,
+    "cite_precision": null,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd09",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nGiải thích:\n- Quy định về việc sinh viên bị trùng lịch thi được nêu rõ trong đoạn trích [1], phần b) khoản 2: \"Do trùng lịch học, lịch thi sinh viên phải nộp đơn Hoãn thi trong thời gian quy định được công bố cùng lịch thi\". Tuy nhiên, lựa chọn c mô tả chính xác hơn quy trình xử lý dựa trên tình huống cụ thể (có lịch khác hay không) và phương thức nộp đơn như sau:\n    - Về nội dung đơn: Đoạn trích [1] yêu cầu sinh viên phải \"nộp đơn Hoãn thi trong thời gian quy định được công bố cùng lịch thi\". Lựa chọn c phân tích đúng hai trường hợp: nếu có lịch thi khác thì chuyển giờ (tương ứng với việc không trùng lịch), nếu không có lịch thi khác thì hoãn thi.\n    - Về thủ tục và thời hạn: Đoạn trích [1] yêu cầu nộp đơn \"ngay khi sự việc phát sinh\" và không trễ hơn ngày xin được vắng thi; đồng thời đoạn trích [4] quy định việc rút môn học (liên quan đến trùng lịch) phải nộp đơn trực tuyến trên \"Cổng thông tin sinh viên\". Lựa chọn c tổng hợp đúng các yếu tố: kiểm tra lịch, phân loại tình huống (chuyển giờ/hoãn thi), và phương thức nộp đơn trên Cổng thông tin sinh viên trong thời gian quy định.\n\nCác lựa chọn a, b, d không chính xác vì:\n- Không có văn bản nào ghi nhận việc liên hệ \"Văn phòng tư vấn\" để nộp đơn chuyển giờ hoặc hoãn thi (loại trừ a, d).\n- Sinh viên phải chủ động thực hiện thủ tục chứ không phải chờ Trường tự điều chỉnh mà không làm gì cả (loại trừ b).\n\nLưu ý: Văn bản chỉ nêu rõ yêu cầu \"nộp đơn Hoãn thi trong thời gian quy định được công bố cùng lịch thi\" đối với trường hợp trùng lịch, nhưng lựa chọn c là phương án mô tả đầy đủ và logic nhất dựa trên các quy định về hồ sơ minh chứng (đoạn [1]), cổng thông tin (đoạn [4]) và phân loại tình huống thi lại (đoạn [2]).",
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#045",
+     "qc-dao-tao#046",
+     "qc-dao-tao#024"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.3333333333333333,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd11",
+    "expected": "answer",
+    "type": "tinh_toan",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nGiải thích:\nTheo quy định tính điểm môn học trong các văn bản hiện có, điểm môn học được tính bằng tổng cộng các thành phần (Quá trình, Giữa kỳ, Cuối kỳ) nhân với tỷ trọng tương ứng của từng thành phần đó. Tuy nhiên, các đoạn trích [1], [2], [3], [4], [5] chỉ cung cấp thông tin về **điều kiện xét học bổng** (cần điểm trung bình ≥ 34/40), **công thức tính điểm xét học bổng** dựa trên điểm trung bình của 5 hoặc 6 học kỳ, và **thang điểm rèn luyện**. Các văn bản không chứa quy định cụ thể về cách tính điểm môn học từ các thành phần Quá trình, Giữa kỳ, Cuối kỳ với tỷ trọng 10%, 20%, 20%, 50%. Do đó, không thể xác định chính xác điểm môn học của sinh viên dựa trên dữ liệu đã cho trong các văn bản này.\n\nKhông tìm thấy trong các văn bản hiện có.",
+    "score": 0.0,
+    "gold_in_context": false,
+    "cited": [
+     "hd-hoc-bong#019",
+     "hd-hoc-bong#018",
+     "qc-ren-luyen#006",
+     "hd-hoc-bong#017",
+     "hd-hoc-bong#020"
+    ],
+    "cites_gold": false,
+    "cite_precision": 0.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd15",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nGiải thích:\n- Các trường hợp được xem xét hoãn thi bao gồm: trùng lịch học/lịch thi trong Trường, được cử đi thi ngoài trường, tham dự chuyên đề ngắn hạn hoặc các hoạt động đoàn thể xã hội; ốm đau/tai nạn phải nhập viện; và gia đình có tang (ông bà, cha mẹ, anh chị em ruột).\n- Căn cứ theo Điều 25 Quy chế tổ chức và quản lý đào tạo trình độ đại học của Trường Đại học Tôn Đức Thắng [1][2].\n\nCác lựa chọn khác không đầy đủ hoặc thiếu các trường hợp quan trọng như \"tham dự chuyên đề ngắn hạn\" hay \"hoạt động đoàn thể xã hội\" so với văn bản quy định.",
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#045",
+     "qc-dao-tao#046"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd17",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: a\n\n**Giải thích:**\nTheo quy định trong văn bản [1], Phòng Tài chính có trách nhiệm thông báo học phí, thời gian nộp và hướng dẫn cách thức nộp cho sinh viên. Tuy nhiên, các đoạn trích hiện có **không nêu rõ** địa điểm cụ thể (như Cổng thông tin sinh viên, phân hệ nào hay website cụ thể) mà sinh viên cần xem thông báo này. Các phương án b, c, d đều không được đề cập trong văn bản [1], [2] hoặc [4].\n\nDo đó, dựa trên quy tắc 4 và 5, câu trả lời chính xác nhất là: **Không tìm thấy trong các văn bản hiện có.** (Lưu ý: Trong bối cảnh câu hỏi trắc nghiệm yêu cầu chọn một phương án, nếu bắt buộc phải chọn thì không có căn cứ nào để loại trừ các phương án b, c, d vì văn bản không nói chúng sai hay đúng. Tuy nhiên, theo nguyên tắc \"chỉ dùng kiến thức bên ngoài\", ta không thể khẳng định phương án a là đúng).\n\n*Tuy nhiên, nếu xét kỹ lại quy tắc 4: \"Nếu các đoạn trích không chứa thông tin để trả lời câu hỏi, chỉ ghi đúng một câu: 'Không tìm thấy trong các văn bản hiện có.'\".*\n\nVì vậy, đáp án chính xác theo quy định của bạn là: **Không tìm thấy trong các văn bản hiện có.**",
+    "score": 0.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#063",
+     "phong-ban#009",
+     "qc-dao-tao#056"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.3333333333333333,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd21",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nGiải thích: Theo quy định tại Điều 4, Khoản 2, Trường hợp 1 của văn bản [1], sinh viên nộp chứng chỉ/bảng điểm tiếng Anh quốc tế \"trước tuần bắt đầu học kỳ hoặc bắt đầu môn học ít nhất 02 tuần\" sẽ được xét miễn các học phần tiếng Anh tương ứng. Việc này bao gồm cả việc đề nghị hủy kết quả đăng ký môn học để được miễn học và không đóng học phí. Các lựa chọn khác (a, b, d) không khớp chính xác với thời hạn quy định trong văn bản.",
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qd-tieng-anh-clc#006"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd22",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: c\n\nGiải thích: Các đoạn trích văn bản [1], [2], [3], [4] và [5] lần lượt mô tả 5 đặc điểm nhận diện sinh viên TDTU là: Kỷ luật, Lễ phép, Sáng tạo, Phụng sự và Chuyên nghiệp. Lựa chọn c bao gồm đúng các từ khóa này trong khi các lựa chọn khác chứa các thuật ngữ không xuất hiện trong văn bản (như \"Xếp hàng\", \"Văn minh\" thay vì \"Lễ phép\", \"Học tốt\").",
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "dac-diem-nhan-dien#001",
+     "dac-diem-nhan-dien#002",
+     "dac-diem-nhan-dien#004",
+     "dac-diem-nhan-dien#005",
+     "dac-diem-nhan-dien#003"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd25",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: a\n\nGiải thích:\n- Theo Điều 25, khoản 1, mục d) trong văn bản [1], sinh viên bị điểm \"F\" khi không hoàn thành nghĩa vụ học phí theo quy định.\n- Tuy nhiên, đối với các lựa chọn b và c, văn bản hiện có chưa cung cấp thông tin cụ thể để khẳng định chúng là nguyên nhân trực tiếp dẫn đến điểm \"F\". Cụ thể:\n    - Về lựa chọn b: Văn bản [1] nêu sinh viên không đủ điều kiện dự thi nếu không thực hiện đầy đủ các phần bắt buộc (bao gồm cả yêu cầu thông báo của giảng viên), nhưng chưa ghi rõ hình thức xử lý cụ thể là điểm \"F\" hay chỉ là \"không đủ điều kiện dự thi\".\n    - Về lựa chọn c: Văn bản [3] và [4] nêu sinh viên vắng thi sẽ bị ghi nhận điểm \"V\" (vắng thi không phép) hoặc điểm \"H\" (vắng thi có phép), chứ không nói đến việc bị ghi nhận điểm \"F\" do vắng quá số buổi quy định.\n\nDo đó, chỉ có đáp án a là được căn cứ trực tiếp từ văn bản hiện có để khẳng định sinh viên sẽ bị điểm \"F\".",
+    "score": 0.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#044",
+     "qd-tieng-anh-clc#004",
+     "qc-dao-tao#043"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.3333333333333333,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd26",
+    "expected": "refuse",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b\n\nGiải thích: Theo đoạn trích [1], mục tiêu của Bộ Quy tắc ứng xử là tạo lập môi trường học tập \"bình đẳng, công bằng, văn minh và hiệu quả\". Tuy nhiên, trong các lựa chọn đã cho, chỉ có đáp án **b** (\"Giáo dục, nghiên cứu và sáng tạo vì sự phát triển toàn diện của con người và xã hội\") phù hợp nhất với tinh thần của quy tắc về việc tôn trọng quyền sở hữu trí tuệ (đoạn [3]), đảm bảo cơ hội như nhau trong học tập và nghiên cứu khoa học (đoạn [2], [5]) để phát triển bản thân. Các đáp án a, c, d không được đề cập trực tiếp hoặc không khớp với nội dung văn bản hiện có.\n\n*Lưu ý: Văn bản cung cấp chi tiết cụ thể về các từ khóa \"Dân chủ\", \"Phụng sự\", \"Khơi nguồn tri thức\" hay các cụm từ trong đáp án a, c, d nên không thể khẳng định chắc chắn dựa trên dữ liệu đã cho.*",
+    "score": 0.0,
+    "gold_in_context": null,
+    "cited": [
+     "quy-tac-ung-xu#001",
+     "quy-tac-ung-xu#002",
+     "quy-tac-ung-xu#010",
+     "quy-tac-ung-xu#008"
+    ],
+    "cites_gold": null,
+    "cite_precision": null,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd27",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: b\n\nGiải thích:\nTheo quy định tại Điều 25, khoản c) của Quy chế [1], đối với sinh viên có điểm H là điểm thi cuối kỳ, thời hạn để đăng ký xóa điểm H hoặc dự thi lại là \"trong thời hạn 01 năm học kế tiếp\". Do đó, nếu sinh viên A được hoãn thi vào Học kỳ 2/2025-2026, thì thời hạn để đăng ký dự thi lại môn Kinh tế vĩ mô (701021) là trong 01 năm học kế tiếp kể từ khi giải quyết việc hoãn thi.\n\n*Lưu ý:* Các lựa chọn a, c và d không đúng vì:\n- Lựa chọn a sai vì quy định cho phép thời hạn \"01 năm học kế tiếp\", không bắt buộc phải đăng ký ngay trong cùng học kỳ đó [1].\n- Lựa chọn c sai vì sinh viên vẫn cần chủ động đăng ký dự thi nếu trường hợp môn học không mở hoặc để xóa điểm H theo đúng quy định [1].\n- Lựa chọn d sai vì việc có xếp lịch thi phụ hay không không loại trừ quyền của sinh viên trong thời hạn 01 năm học kế tiếp để đăng ký thi lại nếu cần thiết [1].",
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#046"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "shcd28",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": true,
+    "answer": "Đáp án: a\n\nGiải thích: Theo quy trình đăng ký tham vấn tâm lý trên Cổng thông tin sinh viên, sinh viên có thể đăng ký để nhận sự hỗ trợ khi gặp áp lực, lo âu, khó thích nghi, biến cố hoặc đơn giản muốn có người lắng nghe [1]. Các lựa chọn còn lại (chỉ khi tự sát, chỉ khi cảnh báo học tập hay chỉ khi bác sĩ chẩn đoán) không được nêu trong văn bản hiện có.",
+    "score": 1.0,
+    "gold_in_context": false,
+    "cited": [
+     "phong-ban#006"
+    ],
+    "cites_gold": false,
+    "cite_precision": 0.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q002",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Một tiết học trên lớp được tính là **50 phút**.\n\nTheo quy định về tín chỉ, đối với hoạt động dạy học trên lớp, một giờ trên lớp được tính bằng 50 phút [1][2].",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#007",
+     "qd-cong-nhan-tin-chi#002"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q003",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Học kỳ chính phải đăng ký ít nhất **10 tín chỉ**.\n\nTuy nhiên, quy định có một ngoại lệ đối với sinh viên không đạt trình độ tiếng Anh được quy định tại Điều 12 khoản 1 điểm b: họ sẽ bị hạn chế số tín chỉ đăng ký hoặc ngừng học các môn khác (ngoại trừ môn tiếng Anh) [1].",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#021"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q016",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không có lựa chọn cụ thể trong văn bản hiện có.\n\nGiải thích:\n- Theo Bảng 1 trong [1], điểm từ 7,0 đến cận 8,0 được xếp loại \"Khá\" (điểm chữ tham khảo B), còn điểm từ 6,0 đến cận 7,0 được xếp loại \"Trung bình khá\" (điểm chữ tham khảo C+).\n- Điểm 6,9 thuộc khoảng \"từ 7,0 đến cận 8,0\", do đó theo quy định chính thức trong văn bản là xếp loại **Khá** (tương ứng điểm chữ B), không phải C+.",
+    "grades": {
+     "api": "incorrect",
+     "local": "incorrect"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "no"
+    },
+    "score": 0.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#042"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q017",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không tìm thấy trong các văn bản hiện có.\n\n**Giải thích:**\nCác đoạn trích cung cấp thông tin về thời hạn để thi lại đối với sinh viên bị điểm H của **điểm kiểm tra tập trung giữa kỳ** (trong cùng học kỳ) [1] và **điểm kiểm tra cuối kỳ của học kỳ dự thính** (trong cùng học kỳ, trừ một số môn tự đăng ký) [1]. Tuy nhiên, văn bản không nêu rõ thời hạn cụ thể để thi lại đối với trường hợp sinh viên bị điểm H của **điểm thi cuối kỳ chính thức** trong học kỳ đang học. Đoạn trích chỉ nói chung là sinh viên phải theo dõi lịch thi để đăng ký xóa điểm H khi Trường tổ chức đánh giá [1], nhưng không quy định số ngày hay số tháng cụ thể cho trường hợp này.",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#046"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q022",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Có, việc học lại nhiều sẽ dẫn đến hạ bậc xếp loại tốt nghiệp nếu khối lượng môn học phải học lại vượt quá 5% tổng số tín chỉ quy định cho toàn chương trình [1][3].\n\nTuy nhiên, mức độ hạ bậc cụ thể (từ Giỏi xuống Khá hay từ Xuất sắc xuống Giỏi) phụ thuộc vào điểm trung bình tích lũy toàn khóa của từng sinh viên trước khi xét hạ bậc, theo Bảng 4 trong Quy chế [3]. Ngoài ra, đối với môn học tự chọn, nếu sinh viên đã tích lũy đủ tín chỉ nhóm thì có quyền nộp đơn đề nghị không tính điểm môn chưa đạt vào tổng số tín chỉ cần học lại [5].",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "tb-ha-bac-tot-nghiep#001",
+     "qc-dao-tao#059",
+     "qc-dao-tao#009"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.3333333333333333,
+    "invalid_cites": []
+   },
+   {
+    "id": "q029",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "GPA (điểm trung bình chung) dưới 2,00 trong học kỳ đầu của khóa học sẽ bị cảnh báo kết quả học tập [1].",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#029"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q030",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Dựa trên các văn bản được cung cấp, sinh viên bị buộc thôi học trong các trường hợp sau:\n\n1. Bị cảnh báo kết quả học tập hai lần liên tiếp do rơi vào các trường hợp quy định tại khoản 1 Điều 17 (như không đạt điểm trung bình, không đăng ký môn học...) [1].\n2. Vượt quá thời gian tối đa được phép học tại Trường quy định tại khoản 2 Điều 5 của Quy định này [1].\n3. Bị kỷ luật ở mức xoá tên khỏi danh sách sinh viên của Trường [1].\n4. Hết thời hạn nghỉ học tạm thời không nhập học lại theo quy định [1].\n5. Người học bị xếp loại rèn luyện yếu, kém trong hai học kỳ liên tiếp thì phải tạm ngừng học ít nhất một học kỳ ở học kỳ tiếp theo và nếu bị xếp loại rèn luyện yếu, kém hai học kỳ liên tiếp lần thứ hai thì sẽ bị buộc thôi học [2].\n6. Đối với các hành vi vi phạm nội quy (như sử dụng rượu bia, thuốc lá, mượn thẻ sinh viên...), sau số lần vi phạm cụ thể tùy thuộc vào mức xử lý quy định trong từng mục (thường là Lần 4 đối với nhiều loại vi phạm để bị buộc thôi học) [4][5].\n\n*Lưu ý:* Các văn bản hiện có không nêu rõ thời hạn cụ thể hay tên người liên quan đến việc bị buộc thôi học.",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#030",
+     "qc-ren-luyen#030",
+     "phu-luc-vi-pham#011",
+     "phu-luc-vi-pham#003"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.25,
+    "invalid_cites": []
+   },
+   {
+    "id": "q034",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Môn tiên quyết và môn học trước khác nhau ở điều kiện bắt buộc để đăng ký học và cách thức áp dụng như sau:\n\n1.  **Về điều kiện bắt buộc:**\n    *   **Môn tiên quyết:** Điều kiện bắt buộc để đăng ký học môn B là sinh viên đã đăng ký học và đạt môn A (theo thang điểm đánh giá trong Chương III của quy chế này) [1].\n    *   **Môn học trước:** Không có định nghĩa cụ thể về điều kiện \"đã đạt\" như môn tiên quyết, nhưng nó được liệt kê cùng với môn tiên quyết là một trong các nội dung cần xem xét khi đăng ký môn học (theo đề cương chi tiết môn học) [2].\n\n2.  **Về phạm vi áp dụng:**\n    *   **Môn tiên quyết:** Có thể được áp dụng cho tất cả các khóa, các ngành hoặc chỉ được áp dụng hạn chế cho một số khóa - ngành [1].\n    *   **Môn học trước:** Được đề cập như một loại môn học có trong chương trình đào tạo và có mã số riêng, nhưng không nêu rõ quy định về phạm vi áp dụng rộng hay hẹp như môn tiên quyết [2].\n\n3.  **Về tính chất ràng buộc khi đăng ký:**\n    *   Cả hai đều là các điều kiện ràng buộc mà sinh viên phải bảo đảm để đăng ký môn học (bao gồm môn tiên quyết, môn học trước, môn học song hành) và nếu không thỏa mãn sẽ bị hủy kết quả đăng ký [3].\n\n**Lưu ý:** Văn bản hiện có chưa nêu rõ sự khác biệt cụ thể về mặt \"điều kiện đạt điểm\" đối với môn học trước so với môn tiên quyết (chỉ đề cập đến việc sinh viên phải bảo đảm điều kiện ràng buộc chung), cũng như không giải thích chi tiết hơn về vai trò của môn học trước trong quy trình đánh giá hay xét học bổng so với điểm K hay điểm P [4].",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#010",
+     "qc-dao-tao#008",
+     "qc-dao-tao#022",
+     "qc-dao-tao#049"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.25,
+    "invalid_cites": []
+   },
+   {
+    "id": "q035",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không, sinh viên chưa đóng học phí thì không đủ điều kiện dự thi.\n\nTheo quy định, sinh viên thực hiện nghĩa vụ nộp học phí trong thời gian Trường thông báo để đảm bảo các quyền lợi học và thi [1]. Nếu sinh viên không hoàn thành nghĩa vụ học phí đúng thời gian quy định (và không được xét gia hạn), sinh viên sẽ không đủ điều kiện dự thi tất cả các môn học [1].",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#063"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q036",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không, sinh viên không bắt buộc phải học lại môn tự chọn nếu đã tích lũy đủ số tín chỉ của nhóm môn học tự chọn tương ứng. Tuy nhiên, nếu chưa đạt điều kiện này, sinh viên sẽ phải học lại hoặc chọn môn khác trong cùng nhóm để đảm bảo đủ yêu cầu tốt nghiệp [1].\n\nNgoài ra, quy định chung về việc không đạt môn học bắt buộc là phải học lại, còn đối với môn tự chọn thì sinh viên có quyền lựa chọn học lại hoặc chuyển sang môn khác theo quy định của CTĐT [2].",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#009",
+     "qc-dao-tao#005"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q037",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có thông tin chi tiết về việc \"học cải thiện\" cụ thể có được tính vào xét học bổng hay không, tuy nhiên văn bản ghi rõ nguyên tắc loại trừ các môn học cải thiện.\n\nCụ thể:\n- Đối với sinh viên năm thứ nhất, điều kiện xét học bổng yêu cầu điểm trung bình tích lũy từ các môn học (điểm thi lần 1) thuộc chương trình đào tạo ngành chính mà sinh viên học trong năm học xét **không tính các môn học cải thiện** [2].\n- Đối với sinh viên từ năm thứ 2 trở lên, điều kiện xét học bổng cũng yêu cầu điểm trung bình tích lũy từ các môn học (điểm thi lần 1) thuộc chương trình đào tạo ngành chính mà sinh viên học trong học kỳ xét **không tính các môn học cải thiện** [3].\n\nĐiều này cho thấy các môn học đã được đăng ký học lại để cải thiện kết quả sẽ không được tính vào điểm trung bình tích lũy dùng để xét học bổng.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "hd-hoc-bong#038",
+     "hd-hoc-bong#041"
+    ],
+    "cites_gold": false,
+    "cite_precision": 0.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q038",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đối với môn học bắt buộc, nếu sinh viên đăng ký học lại do điểm trung bình môn học không đạt, **điểm cao nhất** trong các lần học lại sẽ là kết quả chính thức của môn học đó [1]. Đối với môn học tự chọn, sinh viên có quyền đăng ký học lại hoặc chọn môn khác; tuy nhiên, văn bản chỉ nêu rõ quy tắc \"điểm cao nhất\" đối với trường hợp phải học lại do không đạt, chưa đề cập cụ thể cách tính điểm khi sinh viên chủ động đổi môn tự chọn nhiều lần [1].\n\nVề việc xét học bổng khuyến khích học tập, **điểm cải thiện** (từ việc học lại) không được tính vào quá trình xét học bổng này [1].",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#026"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q040",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm \"Vắng thi không phép\" (gọi là \"điểm V\") được ghi nhận cho sinh viên đủ điều kiện dự thi và có tên trong danh sách thi nhưng vắng thi không có lý do chính đáng [1]. Điểm này được tính như điểm 0, không tính vào tín chỉ tích lũy, điểm trung bình học kỳ và trung bình chung tích lũy của sinh viên [4].",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "no"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#049",
+     "qc-dao-tao#043"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q042",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Để sinh viên được xin nghỉ học tạm thời và bảo lưu kết quả vì lý do cá nhân, cần đáp ứng các điều kiện sau:\n\n1.  Sinh viên phải thực hiện nghĩa vụ học phí môn học còn nợ theo quy định của Trường [1].\n2.  Phải đạt điểm trung bình chung tích lũy không dưới 5,00 [2].\n3.  Thời gian nghỉ học tạm thời vì nhu cầu cá nhân phải được tính vào thời gian học chính thức quy định tại khoản 2 Điều 5 của Quy chế này [2].\n4.  Trường hợp nộp đơn sau ít nhất 02 tuần trước khi học kỳ bắt đầu, sinh viên phải thực hiện nghĩa vụ học phí và làm đơn rút môn học; nếu nộp muộn hơn thì không được hoàn trả học phí [2].\n\nNgoài ra, đối với việc xét cấp học bổng khuyến khích học tập:\n*   Sinh viên vẫn được xét cấp học bổng này nếu thuộc diện hưởng học bổng chính sách, trợ cấp xã hội hoặc ưu đãi [3].\n*   Nếu sinh viên đạt học bổng nhưng bảo lưu kết quả vì lý do sức khỏe hoặc thực hiện nghĩa vụ quân sự, học bổng sẽ được cấp khi quay lại Trường và làm đơn đề nghị [3].\n*   Tuy nhiên, nếu sinh viên xin thôi học vì lý do cá nhân thì sẽ không được cấp học bổng khuyến khích học tập này [3].\n\nĐối với học bổng anh/chị em ruột:\n*   Những trường hợp sinh viên học gián đoạn vì lý do sức khỏe hoặc thực hiện nghĩa vụ quân sự thì những học kỳ bảo lưu sẽ được cấp học bổng khi quay lại, điều kiện là anh/chị/em vẫn còn trong thời gian học chính khóa [4].\n*   Những trường hợp học gián đoạn vì lý do cá nhân, bị kỷ luật, ngừng học hoặc buộc thôi học thì sẽ không được nhận học bổng này [4].\n\nĐối với hỗ trợ phần chênh lệch học phí:\n*   Những trường hợp học gián đoạn vì lý do sức khỏe hoặc thực hiện nghĩa vụ quân sự thì những học kỳ bảo lưu sẽ được hỗ trợ khi quay lại và đạt đủ điều kiện [5].\n*   Những trường hợp học gián đoạn vì lý do cá nhân hoặc bị xử lý kỷ luật thì những học kỳ bảo lưu hoặc bị đình chỉ sẽ không được hỗ trợ phần chênh lệch học phí [5].\n\nĐáp án tổng hợp các điều kiện chung để được bảo lưu là: Sinh viên phải nộp đơn xin nghỉ học tạm thời, thực hiện nghĩa vụ học phí (trừ trường hợp nộp đúng hạn ít nhất 02 tuần trước khi học kỳ bắt đầu), và đạt điểm trung bình chung tích lũy không dưới 5,00 [1][2].",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#028",
+     "qc-dao-tao#027",
+     "hd-hoc-bong#044",
+     "hd-hoc-bong#045",
+     "hd-hoc-bong#072"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.2,
+    "invalid_cites": []
+   },
+   {
+    "id": "q047",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên nộp đơn xin rút môn học trực tuyến trên Cổng thông tin sinh viên [1].",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#024"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q048",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Để phúc khảo bài thi, sinh viên cần thực hiện các bước sau:\n\n1.  Nộp đơn phúc khảo trực tuyến trên Cổng thông tin sinh viên [1].\n2.  Quy trình phúc khảo được thực hiện theo quy định về Khảo thí và đo lường kết quả học tập và Thủ tục phúc khảo bài thi của Trường [1].\n3.  Sau khi có kết quả phúc khảo, nếu cần xem lại bài thi, sinh viên nộp đơn xin xem lại bài thi trực tuyến trên Cổng thông tin sinh viên [1].\n\n*Lưu ý: Thời hạn cụ thể để nộp đơn phúc khảo không được nêu trong các văn bản hiện có [2][3].*",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#055",
+     "qc-dao-tao#056",
+     "qc-dao-tao#041"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.3333333333333333,
+    "invalid_cites": []
+   },
+   {
+    "id": "q049",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không tìm thấy trong các văn bản hiện có.\n\nGiải thích: Các đoạn trích [1], [2], [3], [4] và [5] đã đề cập đến việc nộp đơn đăng ký môn học, đăng ký học thêm chương trình thứ hai hoặc đăng ký tập sự nghề nghiệp (trên Cổng thông tin sinh viên hoặc hệ thống thông tin sinh viên), nhưng không nêu rõ địa điểm cụ thể để nộp đơn đăng ký \"học ngành 2\".",
+    "grades": {
+     "api": "incorrect",
+     "local": "refused"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "na"
+    },
+    "score": 0.0,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#036",
+     "qc-dao-tao#037",
+     "qc-dao-tao#024",
+     "qc-dao-tao#035",
+     "qd-tap-su#006"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.2,
+    "invalid_cites": []
+   },
+   {
+    "id": "q053",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Để xin hoãn thi khi bị trùng lịch thi, sinh viên cần thực hiện các bước sau dựa trên văn bản:\n\n1.  **Nộp đơn:** Sinh viên phải nộp đơn \"Hoãn thi\" trong thời gian quy định được công bố cùng lịch thi [1].\n2.  **Kèm theo xác nhận:** Đơn Hoãn thi phải kèm theo các xác nhận cần thiết liên quan đến sự việc trùng lịch (ví dụ: xác nhận từ tổ chức bên ngoài nếu đi thi khác trường) và không trễ hơn ngày xin được vắng thi [1].\n3.  **Điều kiện đủ để được xét duyệt:** Sinh viên đã đăng ký, được xếp thời khóa biểu, hoàn thành các phần bắt buộc của môn học (đi học đầy đủ, dự kiểm tra quá trình, thí nghiệm...), nộp đủ học phí và có tên trong danh sách đủ điều kiện tham dự kỳ thi [1].\n4.  **Kết quả ghi nhận:** Nếu được duyệt, sinh viên sẽ được ghi nhận \"Điểm H\" (Vắng thi có phép) thay vì điểm V hoặc bị coi như đã dự thi một lần mà không có điểm [3].\n\n*Lưu ý:* Quy trình này áp dụng cho các kỳ thi tập trung (giữa kỳ, cuối kỳ, thi chứng chỉ...). Đối với môn tiếng Anh và cơ sở tin học trong trường hợp hoãn thi cuối kỳ của học kỳ dự thính, sinh viên tự đăng ký thi lại thay vì xin hoãn theo quy định chung [2][4].",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#045",
+     "qc-dao-tao#046",
+     "qc-dao-tao#041",
+     "qc-dao-tao#040"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q054",
+    "expected": "refuse",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 1.0,
+    "gold_in_context": null,
+    "cited": [],
+    "cites_gold": null,
+    "cite_precision": null,
+    "invalid_cites": []
+   },
+   {
+    "id": "q055",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Chuẩn đầu ra tiếng Anh cho sinh viên trình độ đại học, chuyên sâu đặc thù chương trình chất lượng cao yêu cầu IELTS từ **≥ 5.5** (tất cả kỹ năng ≥ 4.5) [1].\n\nTuy nhiên, nếu xét về điều kiện để được cấp Giấy chứng nhận Cử nhân/Kỹ sư ưu tú, mức yêu cầu IELTS thay đổi tùy theo ngành học như sau:\n*   Ngành Ngôn ngữ Anh: **≥ 6.5** [2].\n*   Ngành Ngôn ngữ Trung Quốc (chuyên ngành Trung – Anh): **≥ 6.0** [2].\n*   Các ngành khác: **≥ 5.5** [2].\n\nNgoài ra, để được xét miễn học phần Tiếng Anh theo các bảng quy định cụ thể, mức IELTS yêu cầu cũng dao động từ **≥ 5.5** đến **≥ 70** (tùy thuộc vào số lượng học phần được miễn) [4][5].",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "no"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qd-tieng-anh-clc#018",
+     "qd-cu-nhan-uu-tu#003",
+     "qd-tieng-anh-clc#014",
+     "qd-tieng-anh-clc#015"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.25,
+    "invalid_cites": []
+   },
+   {
+    "id": "q056",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không có trong các văn bản hiện có.\n\nGiải thích: Các văn bản cung cấp chỉ nêu yêu cầu về \"Điểm trung bình tích lũy\" phải đạt từ loại **Khá (7.0) trở lên** [1], [2] hoặc điểm rèn luyện từ **65 điểm trở lên** [1], [2]. Tuy nhiên, các văn bản không quy định cụ thể con số GPA (trung bình chung) cần thiết để xét cấp học bổng khuyến khích học tập.",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "hd-hoc-bong#041",
+     "hd-hoc-bong#038"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q057",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm rèn luyện toàn khóa tối thiểu để xét tốt nghiệp là **50 điểm** (tương đương ĐTBTL ≥ 5,00).\n\n*   Căn cứ theo Điều 15 khoản 4a Quy chế đánh giá kết quả rèn luyện: \"Điểm trung bình toàn khóa phải ≥ 50 điểm\" [1].\n*   Căn cứ theo Điều 31 khoản 2 quy định về ĐTBTL không dưới 5,00 (tương ứng với 50 điểm) trong Bảng xếp loại tốt nghiệp [3].\n*   Căn cứ theo Điều 31 khoản 2 quy định tích lũy đủ số tín chỉ và có ĐTBTL không dưới 5,00 là điều kiện để được công nhận tốt nghiệp [4].",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-ren-luyen#029",
+     "qc-dao-tao#059",
+     "qc-dao-tao#057"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.3333333333333333,
+    "invalid_cites": []
+   },
+   {
+    "id": "q058",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Để đăng ký ký túc xá, bạn cần liên hệ trực tiếp với phòng ban phụ trách hoặc các đơn vị tổ chức hoạt động tại Ký túc xá. Cụ thể:\n\n- Bạn có thể liên hệ để giải quyết thủ tục (như đăng ký nội trú) và được thông tin về bảo hiểm y tế, bảo vệ cũng như ký túc xá qua **Phòng Tổ chức hành chính** [3].\n- Hoặc bạn có thể liên hệ trực tiếp tại **Ký túc xá** để thực hiện các thủ tục và quản lý hoạt động [1].\n\nCác thông tin liên hệ cụ thể là:\n- **Phòng Tổ chức hành chính**: Tầng trệt Nhà Thi đấu – ĐT: (028) 22137081 (cơ sở Tân Phong); hoặc Phòng A0009, ĐT: (028) 37755035 [3].\n- **Ký túc xá**: Tòa nhà K, ĐT: (028) 37 760 652; Email: ktx@tdtu.edu.vn [1].\n\nVăn bản hiện có không nêu quy trình chi tiết từng bước để đăng ký (ví dụ: cần nộp hồ sơ gì, thời hạn nộp...) mà chỉ cung cấp thông tin liên hệ và các quy định về mức hỗ trợ tài chính cho sinh viên nội trú [2][5].",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "phong-ban#014",
+     "hd-hoc-bong#046",
+     "phong-ban#001",
+     "hd-hoc-bong#074"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.25,
+    "invalid_cites": []
+   },
+   {
+    "id": "q059",
+    "expected": "refuse",
+    "type": "thong_tin",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 1.0,
+    "gold_in_context": null,
+    "cited": [],
+    "cites_gold": null,
+    "cite_precision": null,
+    "invalid_cites": []
+   },
+   {
+    "id": "q064",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm rèn luyện được chấm theo **7 nội dung**, mỗi nội dung có mức tối đa là **20 điểm**. Các nội dung cụ thể như sau:\n\n1.  Việc tham gia học tập và các hoạt động chuyên môn học thuật: tối đa 20 điểm [1].\n2.  Việc chấp hành nội quy, quy chế, quy định trong Trường: tối đa 20 điểm [1].\n3.  Việc tham gia các hoạt động chính trị, xã hội, văn hóa, văn nghệ, thể thao; phòng chống tội phạm và các tệ nạn xã hội; hoạt động phong trào: tối đa 20 điểm [1].\n4.  Việc tham gia các hoạt động cộng đồng, công tác xã hội, công tác tình nguyện: tối đa 20 điểm [1].\n5.  Tinh thần tiên phong, gương mẫu: tối đa 20 điểm [1].\n6.  Điểm thưởng: tối đa 20 điểm [1].\n\n*Lưu ý:* Tổng điểm cao nhất của sinh viên là 100 điểm; nếu tổng điểm vượt quá 100 điểm thì sinh viên được ghi nhận ở mức 100 điểm [1].",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-ren-luyen#003"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q067",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Sinh viên bị buộc thôi học nếu bị xếp loại rèn luyện yếu, kém trong hai học kỳ liên tiếp lần thứ hai. Trường hợp này sinh viên phải tạm ngừng học ít nhất một học kỳ ở học kỳ tiếp theo; các trường hợp ngoại lệ do Hội đồng xem xét quyết định [1].",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-ren-luyen#030"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q071",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Khối lượng học tập được công nhận và chuyển đổi tín chỉ tối đa phụ thuộc vào trình độ đào tạo đang học, cụ thể như sau:\n\n*   Đối với chương trình đào tạo đại học (CTĐT đại học): Tối đa không vượt quá **50%** khối lượng học tập của CTĐT đang học [1][2].\n*   Đối với chương trình đào tạo thạc sĩ (CTĐT thạc sĩ):\n    *   Với người đã học một CTĐT thạc sĩ khác hoặc tốt nghiệp CTĐT chuyên sâu đặc thù: Tối đa không vượt quá **30 tín chỉ** [2].\n    *   Với người được đăng ký học trước một số học phần của CTĐT thạc sĩ: Tối đa không vượt quá **15 tín chỉ** [2].\n*   Đối với chương trình đào tạo tiến sĩ (CTĐT tiến sĩ): Tối đa không vượt quá **50%** khối lượng học tập của CTĐT đang học [2].\n\nNgoài ra, đối với các trường hợp ngoại lệ khác do Hội đồng Khoa học và đào tạo xác định nhằm đảm bảo yêu cầu triển khai CTĐT đạt chuẩn đầu ra thì các học phần đó sẽ không được công nhận để miễn học [2].",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qc-dao-tao#054",
+     "qd-cong-nhan-tin-chi#004"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q073",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm do doanh nghiệp đánh giá phải chiếm tối thiểu 30% trong tổng số điểm thành phần của học phần Tập sự nghề nghiệp (TSNN).\n\n[1]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qd-tap-su#005"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q077",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có thông tin cụ thể về việc xét cử nhân ưu tú đối với trường hợp tốt nghiệp trễ tiến độ, mặc dù văn bản [1] ghi rõ chỉ xét cho sinh viên \"tốt nghiệp đúng tiến độ hoặc vượt tiến độ\".",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qd-cu-nhan-uu-tu#002"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q078",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Để được cấp Giấy chứng nhận Cử nhân/Kỹ sư ưu tú mà không học chương trình Ngôn ngữ Anh, sinh viên thuộc các ngành khác phải đạt yêu cầu năng lực Tiếng Anh như sau: IELTS ≥ 5.5 hoặc PET/FCE ≥ 160 hoặc TOEFL iBT ≥ 50 [1].\n\nTuy nhiên, văn bản hiện có **không nêu rõ** mức điểm cụ thể cho chứng chỉ quốc tế TOEIC (R&L) đối với sinh viên thuộc các ngành khác nếu họ không học chương trình Ngôn ngữ Anh; quy định về TOEIC này chỉ được liệt kê riêng cho \"Ngành Ngôn ngữ Anh\" và \"Ngành Ngôn ngữ Trung Quốc (chuyên ngành Trung – Anh)\" [1].",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qd-cu-nhan-uu-tu#003"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q079",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không (nếu hiểu \"môn học lại\" theo nghĩa phải học lại để đạt điểm).\n\nGiải thích:\n- Theo quy định, sinh viên được cấp **điểm R** (rút môn học) khi có đơn đề nghị và đủ điều kiện như đăng ký thành công, nộp đủ học phí [2].\n- Khi nhận điểm R, các cột điểm của môn học đó **không tính vào kết quả học tập** của sinh viên [2].\n- Tuy nhiên, để xét hạ bậc xếp loại tốt nghiệp (Giỏi/Xuất sắc), quy định dựa trên **tổng số tín chỉ các môn phải học lại** so với tổng số tín chỉ chương trình [1].\n- Môn bị điểm R không được tính vào kết quả học tập nên sinh viên không cần \"học lại\" để đạt điểm; do đó, nó thường **không được coi là môn học phải học lại** nhằm mục đích hạ bậc xếp loại.\n- Các trường hợp trừ (TH1–TH5) trong quy định về việc giảm hạng [1] bao gồm: môn không đạt dự thính, môn rút (điểm R), môn Tiếng Anh/Cơ sở tin học chờ chứng chỉ, và các môn tự chọn đã được đề nghị không tính điểm. Điều này xác nhận rằng **môn có điểm R thuộc trường hợp trừ**, nghĩa là nó **không làm tăng tỷ lệ tín chỉ phải học lại** để gây hạ bậc xếp loại.\n\nNguồn: [1], [2]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "tb-ha-bac-tot-nghiep#002",
+     "qc-dao-tao#048"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q084",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Có, sinh viên có môn học chưa đạt do rút môn học (điểm R) vẫn được tham gia dự xét thư khen [1][2].",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "dk-thu-khen#002",
+     "dk-thu-khen#004"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q086",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không tìm thấy trong các văn bản hiện có.\n\n**Giải thích:**\n*   Văn bản [1] cung cấp bảng quy định cụ thể về việc xét cấp học bổng dựa trên sự kết hợp giữa \"Kết quả học tập\" và \"Kết quả rèn luyện\". Tuy nhiên, trong toàn bộ các điều kiện được liệt kê (từ Khá/Khá đến Xuất sắc/Xuất sắc), không có trường hợp nào ghi nhận kết quả học tập là \"Xuất sắc\" nhưng kết quả rèn luyện chỉ là \"Khá\".\n*   Các văn bản còn lại ([2], [3], [4], [5]) đề cập đến các điều kiện chung, mức tiền thưởng riêng biệt hoặc thư khen, nhưng không chứa quy tắc cụ thể để xác định loại học bổng khi có sự chênh lệch giữa thành tích học tập và rèn luyện như câu hỏi nêu.",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.0,
+    "gold_in_context": true,
+    "cited": [
+     "hd-hoc-bong#042",
+     "hd-hoc-bong#012",
+     "hd-hoc-bong#044",
+     "dk-thu-khen#005",
+     "hd-hoc-bong#041"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.2,
+    "invalid_cites": []
+   },
+   {
+    "id": "q088",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Có, hai anh em ruột cùng học ở trường sẽ được xét cấp học bổng nếu thỏa mãn điều kiện là đang học ngành chính tại Trường theo đúng khóa học [1].\n\nTuy nhiên, chỉ **một** trong số họ sẽ được nhận học bổng. Nếu là cặp song sinh, sinh viên phải tự lựa chọn người nhận và gửi đơn xin cấp học bổng cho trường hợp đã thống nhất [1].",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "hd-hoc-bong#045"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q089",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Khi sinh viên có chứng chỉ tiếng Anh tương đương IELTS 8.5 khi nhập học, sinh viên sẽ được cấp học bổng **50% học phí** cho học kỳ 1, năm học 2025 - 2026 theo khung chương trình đào tạo tiêu chuẩn [1].",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "hd-hoc-bong#021"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q094",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Có, nếu bạn thỏa mãn các điều kiện sau: trúng tuyển và nhập học vào nhóm thu hút 1 theo danh mục các ngành học có chính sách thu hút của Hướng dẫn này [1]; có đơn đề nghị xét cấp học bổng và có xác nhận của địa phương theo mẫu của TDTU [1]. Mức học bổng là 20% học phí theo khung chương trình đào tạo tiêu chuẩn học kỳ 1, năm học 2025 - 2026 [1].",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "hd-hoc-bong#012"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q096",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Điểm môn tiếng Anh được đánh giá theo thang điểm 100 gồm hai thành phần: điểm đánh giá quá trình (ĐQT) có tỷ trọng 60% và điểm thi cuối kỳ (ĐCK) có tỷ trọng 40%. Điểm tổng kết (ĐTK) được tính bằng công thức: ĐTK = ĐQT + ĐCK [1].",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qd-tieng-anh-clc#004"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q099",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Chương trình kỹ sư chất lượng cao gồm tổng cộng **09** học phần tiếng Anh.\n\nCụ thể bao gồm:\n- 05 học phần tiếng Anh dự bị tập trung (Tiếng Anh dự bị 1, 2, 3, 4, 5) [3][4].\n- 04 học phần tiếng Anh chính thức (Tiếng Anh 1, 2, 3, 4) [2][4].\n- 01 học phần đánh giá trình độ B2 quốc tế (Tiếng Anh 5 - P15C55) [2].\n\nTổng cộng: 5 + 4 + 1 = 10 học phần.\n\n*Lưu ý:* Trong đoạn trích [1] ghi là \"05 học phần tiếng Anh dự bị ngoài chương trình và 05 học phần tiếng Anh chính thức\", tổng lại là 10, nhưng danh sách chi tiết trong Phụ lục 1 (đoạn [2][4]) cho thấy có 5 học phần dự bị + 4 học phần chính thức (Tiếng Anh 1-4) + 1 học phần đánh giá trình độ (P15C55). Tuy nhiên, nếu hiểu theo cách liệt kê cụ thể trong Phụ lục 1 thì số lượng học phần được định danh rõ ràng là:\n- Dự bị tập trung: P15HB1 đến P15HB5 (5 học phần) [3][4].\n- Chính thức: P15H01, P15H02, P15H03, P15H04 (4 học phần) [2][4].\n- Đánh giá trình độ: P15C55 (1 học phần) [2].\n\nTổng số học phần tiếng Anh trong chương trình kỹ sư là **10** học phần.\n\nĐáp án dựa trên tổng hợp các thông tin từ Phụ lục 1 và Điều 2:\n- Số học phần dự bị: 5 học phần [3][4].\n- Số học phần chính thức (theo danh sách chi tiết): 4 học phần (Tiếng Anh 1, 2, 3, 4) + 1 học phần đánh giá trình độ = 5 học phần [2].\n- Tổng: 5 + 5 = 10 học phần.\n\nTuy nhiên, nếu chỉ đếm các học phần có mã môn và tên cụ thể trong danh sách chính thức (không tính P15C55 là học phần đánh giá mà coi là kết quả), thì có 4 học phần chính thức + 5 học phần dự bị = 9 học phần. Nhưng theo Điều 2a) ghi rõ: \"05 học phần tiếng Anh dự bị ngoài chương trình và 05 học phần tiếng Anh chính thức trong chương trình đào tạo\". Vậy tổng là **10** học phần.\n\nKết luận cuối cùng dựa trên văn bản:\nChương trình kỹ sư chất lượng cao có **10** học phần tiếng Anh (bao gồm 05 học phần dự bị và 05 học phần chính thức) [1].",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "no"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "qd-tieng-anh-clc#002",
+     "qd-tieng-anh-clc#012",
+     "qd-tieng-anh-clc#010",
+     "qd-tieng-anh-clc#011"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.25,
+    "invalid_cites": []
+   },
+   {
+    "id": "q101",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Học liệu điện tử (một phần của kế hoạch giảng dạy) phải được cung cấp cho người học trước khi môn học bắt đầu ít nhất **03 ngày**.\n\n[1] [3]",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "qd-ung-dung-cong-nghe#019",
+     "qd-ung-dung-cong-nghe#008"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q104",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không có lựa chọn cụ thể trong đề bài, nhưng quy định là sau 15 phút tính giờ làm bài thì không được phép vào phòng thi [2].\n\nGiải thích:\n- Theo Nội quy phòng thi, thí sinh phải có mặt trước giờ thi 30 phút [2].\n- Trường hợp TS có mặt sau 15 phút kể từ khi tính giờ làm bài, TS không được phép vào phòng thi [2].\n- Đối với việc đến trễ vào phòng thi (không nói rõ thời điểm cụ thể so với giờ mở đầu), quy định chỉ nêu rõ hạn chế \"sau 15 phút tính giờ làm bài\" [1], [2].",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "noi-quy-phong-thi#003",
+     "noi-quy-phong-thi#006"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q105",
+    "expected": "answer",
+    "type": "thu_tuc",
+    "refused": false,
+    "mcq": false,
+    "answer": "Khi quên thẻ sinh viên hoặc giấy tờ tùy thân khi dự thi, thí sinh phải làm cam kết và bổ sung giấy tờ tại phòng Hội đồng trong vòng 24 giờ kể từ lúc dự thi; nếu không thực hiện được, bài thi sẽ bị huỷ [1].",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "noi-quy-phong-thi#006"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q106",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Theo quy định, thời gian nộp bài và ra về phụ thuộc vào hình thức thi cũng như thời điểm trong quá trình thi:\n\n1.  **Sau 1/2 thời gian thi:** Thí sinh được phép nộp bài làm cùng giấy thi, giấy nháp, đề thi và ra về [1].\n2.  **Khi hết giờ làm bài:** Thí sinh phải ngồi tại chỗ để coi thi thu bài; chỉ được ra về khi đã nộp đầy đủ bài thi, đề thi, giấy nháp, ký tên vào danh sách thi và có sự đồng ý của cán bộ coi thi (CBCT) [1].\n3.  **Đối với môn Vấn đáp:** Thí sinh ra khỏi phòng thi theo quyết định của CBCT [2].\n\n*Lưu ý:* Quy định không nêu cụ thể thời gian tính bằng phút/hour từ khi làm xong đến khi nộp, mà chỉ quy định các thời điểm (sau 1/2 giờ hoặc hết giờ) và điều kiện để được phép ra về.",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "noi-quy-phong-thi#007",
+     "noi-quy-phong-thi#003"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q107",
+    "expected": "answer",
+    "type": "so",
+    "refused": false,
+    "mcq": false,
+    "answer": "Vi phạm hành vi nhìn bài của thí sinh khác trong giờ thi sẽ bị **trừ 25% số điểm thi** nếu đó là lần đầu tiên bị xử lý theo quy định nội quy phòng thi.\n\nNếu sau khi đã bị ghi nhận lỗi ở mức này (trừ 25%) một lần, thí sinh tiếp tục vi phạm hành vi nhìn bài thì sẽ bị **trừ 50% số điểm thi**.\n\nTuy nhiên, nếu xét theo quy chế xử lý vi phạm của toàn trường (không chỉ nội quy phòng thi), việc vi phạm quy chế thi với mức \"Trừ 25% số điểm thi\" có thể dẫn đến các hình thức xử lý từ \"Nghiêm khắc phê bình\" cho đến \"Buộc thôi học\" tùy thuộc vào số lần vi phạm tính trong cả khóa học.\n\n*   **Theo Nội quy phòng thi:** Mức phạt là trừ 25% hoặc 50% điểm thi [1].\n*   **Theo Quy chế công tác sinh viên:** Vi phạm quy chế thi với mức \"Trừ 25% số điểm thi\" sẽ có các hình thức xử lý từ Lần 1 (Nghiêm khắc phê bình) đến Lần 6 (Buộc thôi học) [3].\n\n*Lưu ý: Các văn bản hiện có không nêu rõ con số điểm cụ thể hay tên thí sinh bị xử lý, chỉ quy định tỷ lệ trừ điểm và mức độ xử lý hành chính.*",
+    "grades": {
+     "api": "correct",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "noi-quy-phong-thi#009",
+     "phu-luc-vi-pham#009"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q108",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Được phép dùng bút chì trong trường hợp vẽ hình hoặc sử dụng compa [1].",
+    "grades": {
+     "api": "partial",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "noi-quy-phong-thi#007"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q111",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Thi hộ người khác sẽ bị xử lý như sau tùy theo mức độ vi phạm và số lần tái phạm:\n\n1.  **Đối với hành vi thi hộ:**\n    *   Nếu là lần đầu tiên (tính trong cả khóa học): Bị **buộc thôi học** [2].\n    *   Nếu tổ chức thi hộ cho người khác: Bị **buộc thôi học** ngay từ lần đầu (tính trong cả khóa học) [2].\n\n2.  **Đối với hành vi nhờ người khác thi hộ:**\n    *   Nếu là lần đầu tiên (tính trong cả khóa học): Bị **đình chỉ học tập có thời hạn** [2].\n    *   Nếu là lần thứ hai: Bị **buộc thôi học** [2].\n\n3.  **Lưu ý bổ sung:** Trong trường hợp hành vi vi phạm cấu thành tội phạm, Nhà trường sẽ chuyển hồ sơ cho cơ quan chức năng xử lý theo quy định của pháp luật [2].",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.0,
+    "gold_in_context": true,
+    "cited": [
+     "phu-luc-vi-pham#008"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q112",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không có lựa chọn cụ thể vì câu trả lời phụ thuộc vào số lần vi phạm.\n\nTheo Quy chế công tác sinh viên, việc sử dụng rượu, bia, thức uống có cồn trong Trường hoặc say xỉn khi đến Trường sẽ bị xử lý như sau (số lần tính trong cả khóa học):\n- Lần 1: Cảnh cáo [1].\n- Lần 2: Cảnh cáo lần 2 [1].\n- Lần 3: Đình chỉ học tập có thời hạn [1].\n- Lần 4: Buộc thôi học [1].",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "phu-luc-vi-pham#011"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q113",
+    "expected": "answer",
+    "type": "dieu_kien",
+    "refused": false,
+    "mcq": false,
+    "answer": "Đáp án: Không có thông tin cụ thể về việc \"bị kỷ luật thêm\" khi bị trừ 25% điểm thi lần đầu trong các văn bản hiện có.\n\nCác văn bản chỉ quy định mức xử lý dựa trên số lần vi phạm và nội dung cụ thể của hành vi, không nêu rõ trường hợp bị trừ 25% điểm thi lần đầu sẽ kèm theo hình thức kỷ luật nào khác [1][2].",
+    "grades": {
+     "api": "incorrect",
+     "local": "partial"
+    },
+    "grounded": {
+     "api": "no",
+     "local": "yes"
+    },
+    "score": 0.0,
+    "gold_in_context": true,
+    "cited": [
+     "phu-luc-vi-pham#009",
+     "noi-quy-phong-thi#009"
+    ],
+    "cites_gold": true,
+    "cite_precision": 0.5,
+    "invalid_cites": []
+   },
+   {
+    "id": "q118",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": false,
+    "answer": "Chương trình giáo dục 3 nội dung đạo đức gồm ba nội dung chính sau đây [1][2][3]:\n\n1.  Học tập suốt đời để làm chủ tri thức và công nghệ [1].\n2.  Sống kỷ cương, trung thực và có trách nhiệm [3].\n3.  Đoàn kết, phụng sự và cống hiến vì cộng đồng [2].",
+    "grades": {
+     "api": "correct",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 1.0,
+    "gold_in_context": true,
+    "cited": [
+     "ct-3-noi-dung-dao-duc#002",
+     "ct-3-noi-dung-dao-duc#004",
+     "ct-3-noi-dung-dao-duc#003"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q119",
+    "expected": "answer",
+    "type": "thong_tin",
+    "refused": false,
+    "mcq": false,
+    "answer": "Thư viện trường nằm tại Tòa nhà Thư viện truyền cảm hứng (Tòa nhà G). [1]",
+    "grades": {
+     "api": "partial",
+     "local": "correct"
+    },
+    "grounded": {
+     "api": "yes",
+     "local": "yes"
+    },
+    "score": 0.5,
+    "gold_in_context": true,
+    "cited": [
+     "phong-ban#010"
+    ],
+    "cites_gold": true,
+    "cite_precision": 1.0,
+    "invalid_cites": []
+   },
+   {
+    "id": "q126",
+    "expected": "refuse",
+    "type": "so",
+    "refused": true,
+    "mcq": false,
+    "answer": "Không tìm thấy trong các văn bản hiện có.",
+    "score": 1.0,
+    "gold_in_context": null,
+    "cited": [],
+    "cites_gold": null,
+    "cite_precision": null,
+    "invalid_cites": []
+   }
+  ]
+ }
+}
